@@ -1,0 +1,63 @@
+name: QuantForge CI
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "qfbuild_v24.50/qfbuild/**"
+      - ".github/workflows/quantforge-ci.yml"
+  pull_request:
+    paths:
+      - "qfbuild_v24.50/qfbuild/**"
+      - ".github/workflows/quantforge-ci.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  dotnet-architecture-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: qfbuild_v24.50/qfbuild
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup .NET 10
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+      - name: Restore architecture tests
+        run: dotnet restore tests/QuantForge.ArchitectureTests/QuantForge.ArchitectureTests.csproj
+      - name: Build architecture tests
+        run: dotnet build tests/QuantForge.ArchitectureTests/QuantForge.ArchitectureTests.csproj --no-restore --configuration Release
+      - name: Run architecture tests
+        run: dotnet test tests/QuantForge.ArchitectureTests/QuantForge.ArchitectureTests.csproj --no-build --configuration Release --logger "trx;LogFileName=quantforge-architecture-tests.trx"
+      - name: Upload test result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: quantforge-architecture-test-results
+          path: qfbuild_v24.50/qfbuild/tests/QuantForge.ArchitectureTests/TestResults/*.trx
+          if-no-files-found: ignore
+
+  static-validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: qfbuild_v24.50/qfbuild
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validate source inventory
+        run: |
+          test -d src
+          test -d tests
+          test -f src/QuantForge.Core/QuantForge.Core.csproj
+          test -f src/QuantForge.Storage/QuantForge.Storage.csproj
+          test -f tests/QuantForge.ArchitectureTests/QuantForge.ArchitectureTests.csproj
+          test -f docs/Validation_Result_v24_50.txt
+          echo "QuantForge structural validation passed."
