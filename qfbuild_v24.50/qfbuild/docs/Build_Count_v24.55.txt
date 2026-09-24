@@ -1,0 +1,8 @@
+QuantForge Master Build Count — v24.55
+Previous validated baseline: v24.50
+Purpose: GitHub-hosted compilation/test gate
+Repository CI workflow: .github/workflows/quantforge-ci.yml
+Live trading: disabled
+Live orders: disabled
+Research data: read-only
+Research execution: simulation-only
