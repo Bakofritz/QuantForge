@@ -1,0 +1,15 @@
+{
+  "version": "20.19",
+  "focus": ["account-ledger", "intrabar-ambiguity", "risk-locks", "short-side-foundation"],
+  "liveTradingEnabled": false,
+  "primaryInstrument": "MES",
+  "plannedInstruments": ["MNQ"],
+  "maxContracts": 1,
+  "initialAccountSize": 3000,
+  "maxRiskPerTrade": 30,
+  "dailyLossLimit": 60,
+  "profitTargetDefault": 0,
+  "intrabarDefaultPolicy": "ConservativeStopFirst",
+  "nativeCompilationValidated": false,
+  "deviceValidationValidated": false
+}

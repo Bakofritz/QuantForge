@@ -1,0 +1,12 @@
+{
+  "version": "20.38",
+  "title": "Native Validation Harness + Controlled Concurrency Test Infrastructure",
+  "parallelExecutionEnabled": false,
+  "liveTradingEnabled": false,
+  "nativeCompilationValidated": false,
+  "androidRuntimeValidated": false,
+  "windowsRuntimeValidated": false,
+  "csharpFileCount": 93,
+  "validation": "CS_STRUCTURAL_BALANCE_PASS",
+  "nextBuild": "20.39"
+}

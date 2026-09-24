@@ -1,0 +1,15 @@
+{
+  "product": "QuantForge Futures Research Platform",
+  "release": "20.29",
+  "baseline": "20.28",
+  "focus": ["resource-governance", "lease-heartbeat", "execution-receipts"],
+  "visualChanges": false,
+  "nativeTarget": ".NET 10 LTS + .NET MAUI",
+  "platforms": ["Windows", "Android"],
+  "liveTrading": false,
+  "parallelExecution": false,
+  "maxConcurrentCases": 1,
+  "nativeCompilationValidated": false,
+  "dataFidelity": "OHLCV",
+  "engineLineage": "qf-native-v20.29"
+}

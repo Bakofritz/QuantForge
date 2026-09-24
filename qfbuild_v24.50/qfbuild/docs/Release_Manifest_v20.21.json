@@ -1,0 +1,13 @@
+{
+  "product": "QuantForge Futures Research Platform",
+  "version": "20.21",
+  "release": "NT8 Triangulated Data Validation",
+  "visual_refinement": "deferred",
+  "native_compile_validated": false,
+  "android_device_validated": false,
+  "windows_runtime_validated": false,
+  "csharp_file_count": 57,
+  "validation_layers": ["TickDirect", "MinuteDerived", "DayDerived", "Coverage", "Integrity"],
+  "live_trading_authority": false,
+  "deferred_contribution_codes": ["NT8 REPLAY", "NT8 TICK", "NT8 MINUTE", "NT8 DAILY", "REPLAY MATCH"]
+}

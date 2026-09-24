@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\QuantForge.Core\QuantForge.Core.csproj" />
+    <ProjectReference Include="..\..\src\QuantForge.Data\QuantForge.Data.csproj" />
+    <ProjectReference Include="..\..\src\QuantForge.Storage\QuantForge.Storage.csproj" />
+    <ProjectReference Include="..\..\src\QuantForge.Runtime\QuantForge.Runtime.csproj" />
+    <ProjectReference Include="..\..\src\QuantForge.Backtesting\QuantForge.Backtesting.csproj" />
+    <ProjectReference Include="..\..\src\QuantForge.Governance\QuantForge.Governance.csproj" />
+    <ProjectReference Include="..\..\src\QuantForge.Bots\QuantForge.Bots.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+QuantForge v22.25 Validation Result
+
+PASS — source structure created and architecture checks validated by static inspection.
+PASS — ZIP integrity verified after packaging.
+PASS — deterministic state model includes fail-closed conditions.
+PASS — unresolved recovery remains gated.
+PASS — changed recovery authority binding is rejected.
+PASS — adversarial matrix includes timeout, disconnect, restart, unknown state, authority change, and audit failure.
+
+NOT CLAIMED:
+- native platform runtime compilation/execution
+- production Android Keystore or Windows protected-key operation
+- real broker connectivity
+- real-money order submission
+- broker certification

@@ -1,0 +1,10 @@
+{
+  "version": "20.44",
+  "name": "Transactional Terminal Commit Boundary + Recovery Integrity Harness",
+  "nativeRuntimeExecuted": false,
+  "parallelResearchEnabled": false,
+  "liveTradingEnabled": false,
+  "visualRefinementDeferred": true,
+  "terminalCommit": "sqlite-transactional",
+  "next": "20.45"
+}

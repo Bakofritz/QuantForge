@@ -1,0 +1,15 @@
+QuantForge v20.21 source validation
+C# files: 57
+C# lexical structural balance: PASS
+NT8 contracts: PASS
+NT8 bridge: PASS
+NT8 export importer: PASS
+NT8 validation engine: PASS
+direct tick comparison: PASS
+minute comparison: PASS
+day comparison: PASS
+coverage layer: PASS
+integrity layer: PASS
+validation fingerprint: PASS
+no live authority: PASS
+Native compile/device validation: NOT AVAILABLE

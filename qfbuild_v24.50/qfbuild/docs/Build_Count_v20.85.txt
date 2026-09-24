@@ -1,0 +1,3 @@
+Master Build v20.85
+Consolidated milestones: v20.81-v20.85
+Consolidation policy: compatible architectural milestones are bundled into larger validated build efforts.

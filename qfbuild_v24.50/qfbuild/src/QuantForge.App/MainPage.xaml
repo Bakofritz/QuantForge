@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QuantForge.App.MainPage"
+             BackgroundColor="#02090D">
+    <ScrollView>
+        <Grid RowDefinitions="Auto,Auto,Auto,Auto" Padding="16" RowSpacing="12">
+            <Grid Grid.Row="0" ColumnDefinitions="*,Auto" Padding="0,0,0,4">
+                <VerticalStackLayout>
+                    <Label Text="QUANTFORGE" FontSize="20" FontAttributes="Bold" TextColor="#FFD56B" />
+                    <Label Text="FUTURES RESEARCH PLATFORM · v20.18" FontSize="9" TextColor="#8DA8B4" />
+                </VerticalStackLayout>
+                <Border Grid.Column="1" Stroke="#25424E" StrokeShape="RoundRectangle 12" Padding="10,6">
+                    <Label Text="● GOVERNED / READ-ONLY" TextColor="#7BE8D5" FontSize="10" />
+                </Border>
+            </Grid>
+
+            <Border x:Name="LiveTradingBanner" Grid.Row="1" IsVisible="False" BackgroundColor="#8B0000" Stroke="#FF3B30" StrokeThickness="4" StrokeShape="RoundRectangle 12" Padding="14">
+                <VerticalStackLayout Spacing="4">
+                    <Label Text="⚠ LIVE TRADING ENABLED" TextColor="White" FontSize="22" FontAttributes="Bold" HorizontalOptions="Center" />
+                    <Label Text="REAL BROKER COMMUNICATIONS AND ORDERS MAY BE ACTIVE" TextColor="White" FontSize="11" FontAttributes="Bold" HorizontalOptions="Center" />
+                    <Label Text="Verify account, risk limits, communication scope, strategy authorization, and armed session before proceeding." TextColor="White" FontSize="10" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+                </VerticalStackLayout>
+            </Border>
+
+            <Grid Grid.Row="2" ColumnDefinitions="1.15*,2*,1.15*" ColumnSpacing="12">
+                <VerticalStackLayout Grid.Column="0" Spacing="10">
+                    <Label Text="PROJECT &amp; GOVERNANCE" TextColor="#8DA8B4" FontSize="10" />
+                    <Border Stroke="#25424E" StrokeShape="RoundRectangle 16" Padding="14">
+                        <VerticalStackLayout Spacing="8">
+                            <Label Text="Current Project" TextColor="#8DA8B4" FontSize="10" />
+                            <Label Text="MES Research Workspace" TextColor="#F0F6F7" FontAttributes="Bold" />
+                            <Label Text="Primary: MES · Planned: MNQ" TextColor="#BBD0D7" FontSize="11" />
+                            <Label Text="Imported source execution: BLOCKED" TextColor="#FF9A86" FontSize="11" />
+                            <Label Text="Live orders: BLOCKED" TextColor="#FF9A86" FontSize="11" />
+                            <Button Text="New Research Job" />
+                            <Button Text="Strategy / Script Audit" />
+                        </VerticalStackLayout>
+                    </Border>
+                    <Border Stroke="#25424E" StrokeShape="RoundRectangle 16" Padding="14">
+                        <VerticalStackLayout Spacing="8">
+                            <Label Text="RESEARCH CONTROLS" TextColor="#8DA8B4" FontSize="10" />
+                            <Label Text="Deterministic backtest" TextColor="#BBD0D7" FontSize="11" />
+                            <Label Text="Causal MTF observations" TextColor="#BBD0D7" FontSize="11" />
+                            <Label Text="Optimization / robustness" TextColor="#BBD0D7" FontSize="11" />
+                            <Label Text="Evidence-linked results" TextColor="#BBD0D7" FontSize="11" />
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Grid.Column="1" Spacing="10">
+                    <Label Text="ACCOUNT · RISK · EXECUTION DEFAULTS" TextColor="#8DA8B4" FontSize="10" />
+                    <Border Stroke="#E7B94F" StrokeThickness="1" StrokeShape="RoundRectangle 16" Padding="14">
+                        <VerticalStackLayout Spacing="10">
+                            <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto" RowSpacing="7">
+                                <Label Text="Initial account" TextColor="#BBD0D7" />
+                                <Label Grid.Column="1" Text="$3,000" TextColor="#FFD56B" FontAttributes="Bold" />
+                                <Label Grid.Row="1" Text="Primary instrument" TextColor="#BBD0D7" />
+                                <Label Grid.Row="1" Grid.Column="1" Text="MES" TextColor="#FFD56B" FontAttributes="Bold" />
+                                <Label Grid.Row="2" Text="Initial max position" TextColor="#BBD0D7" />
+                                <Label Grid.Row="2" Grid.Column="1" Text="1 contract" TextColor="#FFD56B" FontAttributes="Bold" />
+                                <Label Grid.Row="3" Text="Initial stop" TextColor="#BBD0D7" />
+                                <Label Grid.Row="3" Grid.Column="1" Text="6.00 points" TextColor="#FFD56B" />
+                                <Label Grid.Row="4" Text="Trailing" TextColor="#BBD0D7" />
+                                <Label Grid.Row="4" Grid.Column="1" Text="4.00 activation / 2.00 trail" TextColor="#FFD56B" FontSize="11" />
+                                <Label Grid.Row="5" Text="Profit target" />
+                                <Label Grid.Row="5" Grid.Column="1" Text="Disabled by default" TextColor="#FFD56B" FontAttributes="Bold" />
+                                <Label Grid.Row="6" Text="Daily loss lock" TextColor="#BBD0D7" />
+                                <Label Grid.Row="6" Grid.Column="1" Text="$60" TextColor="#FFD56B" FontAttributes="Bold" />
+                            </Grid>
+                            <BoxView HeightRequest="1" BackgroundColor="#284B55" />
+                            <Label Text="Execution assumptions" TextColor="#8DA8B4" FontSize="10" />
+                            <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto,Auto,Auto" RowSpacing="7">
+                                <Label Text="Commission assumption" TextColor="#BBD0D7" />
+                                <Label Grid.Column="1" Text="$0.95 / side" TextColor="#FFD56B" />
+                                <Label Grid.Row="1" Text="Slippage assumption" TextColor="#BBD0D7" />
+                                <Label Grid.Row="1" Grid.Column="1" Text="1 tick / side" TextColor="#FFD56B" />
+                                <Label Grid.Row="2" Text="Latency profile" TextColor="#BBD0D7" />
+                                <Label Grid.Row="2" Grid.Column="1" Text="Windows Wi-Fi · 80 ms est." TextColor="#FFD56B" FontSize="11" />
+                                <Label Grid.Row="3" Text="Round-trip friction" TextColor="#BBD0D7" />
+                                <Label Grid.Row="3" Grid.Column="1" Text="$4.40 / contract" TextColor="#FFD56B" />
+                            </Grid>
+                            <Label Text="These are governed research assumptions, not broker/exchange latency measurements. Verify live commission terms before deployment." TextColor="#8DA8B4" FontSize="9" />
+                        </VerticalStackLayout>
+                    </Border>
+                    <Border Stroke="#25424E" StrokeShape="RoundRectangle 16" Padding="14">
+                        <VerticalStackLayout Spacing="8">
+                            <Label Text="CONNECTION SCENARIOS" TextColor="#8DA8B4" FontSize="10" />
+                            <Label Text="Windows Ethernet · 35 ms estimate" TextColor="#BBD0D7" FontSize="11" />
+                            <Label Text="Windows Wi-Fi · 80 ms estimate" TextColor="#BBD0D7" FontSize="11" />
+                            <Label Text="Android Wi-Fi · 80 ms estimate" TextColor="#BBD0D7" FontSize="11" />
+                            <Label Text="Android mobile data · 180 ms estimate" TextColor="#BBD0D7" FontSize="11" />
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout Grid.Column="2" Spacing="10">
+                    <Label Text="SYSTEM STATUS" TextColor="#8DA8B4" FontSize="10" />
+                    <Border Stroke="#25424E" StrokeShape="RoundRectangle 16" Padding="14">
+                        <VerticalStackLayout Spacing="8">
+                            <Label Text="Native architecture" TextColor="#7BE8D5" />
+                            <Label Text=".NET 10 + MAUI" TextColor="#BBD0D7" FontSize="11" />
+                            <Label Text="Local-first storage" TextColor="#7BE8D5" />
+                            <Label Text="SQLite / WAL" TextColor="#BBD0D7" FontSize="11" />
+                            <Label Text="AI authority" TextColor="#BBD0D7" FontSize="11" />
+                            <Label Text="Analysis / proposal only" TextColor="#BBD0D7" FontSize="11" />
+                        </VerticalStackLayout>
+                    </Border>
+                    <Border Stroke="#25424E" StrokeShape="RoundRectangle 16" Padding="14">
+                        <VerticalStackLayout Spacing="8">
+                            <Label Text="NEXT RESEARCH TARGETS" TextColor="#8DA8B4" FontSize="10" />
+                            <Label Text="Profit target + risk-budget enforcement" TextColor="#BBD0D7" FontSize="11" />
+                            <Label Text="Sensitivity: slippage / latency → evidence" TextColor="#BBD0D7" FontSize="11" />
+                            <Label Text="Persistent risk settings" TextColor="#BBD0D7" FontSize="11" />
+                            <Label Text="MES / MNQ instrument profiles" TextColor="#BBD0D7" FontSize="11" />
+                            <Label Text="Evidence-linked cost analytics" TextColor="#BBD0D7" FontSize="11" />
+                        </VerticalStackLayout>
+                    </Border>
+                    <Button Text="Settings &amp; Security" />
+                    <Button Text="Run Cost Sensitivity" />
+                </VerticalStackLayout>
+            </Grid>
+
+            <Border Grid.Row="3" Stroke="#25424E" StrokeShape="RoundRectangle 16" Padding="12">
+                <HorizontalStackLayout Spacing="18">
+                    <Label Text="ANALYZE" TextColor="#DDE9EC" />
+                    <Label Text="TEST" TextColor="#DDE9EC" />
+                    <Label Text="IMPROVE" TextColor="#DDE9EC" />
+                    <Label Text="TRADE SMARTER" TextColor="#DDE9EC" />
+                    <Label Text="Visual refinement deferred · core functionality prioritized" TextColor="#8DA8B4" FontSize="10" />
+                </HorizontalStackLayout>
+            </Border>
+        </Grid>
+    </ScrollView>
+</ContentPage>

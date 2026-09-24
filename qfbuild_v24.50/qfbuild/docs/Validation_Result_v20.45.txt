@@ -1,0 +1,40 @@
+QuantForge v20.45 Validation Result
+===================================
+Build: 20.45
+Focus: Transactional Terminal Fault-Execution Harness
+
+SOURCE INVENTORY
+- Source C# files: 92
+- Total C# files including tests: 113
+- Brace balance: PASS
+
+ARCHITECTURE
+- TransactionalTerminalFaultPoint: PASS
+- SQLite terminal-event fault seam: PASS
+- SQLite pre-commit fault seam: PASS
+- Transactional terminal fault adapter: PASS
+- Runtime validation service: PASS
+- Runtime entry point: PASS
+
+NATIVE EXECUTION
+- dotnet SDK/runtime available: NO
+- Native .NET compilation: NOT EXECUTED
+- Native SQLite fault harness: NOT EXECUTED
+- Android runtime: NOT EXECUTED
+- Windows runtime: NOT EXECUTED
+
+SAFETY
+- Live trading: DISABLED
+- Order submission: DISABLED
+- Parallel research: DISABLED
+- Unrestricted AI mutation: DISABLED
+- Visual refinement: DEFERRED
+
+EXPECTED NATIVE INVARIANT
+Injected terminal failure
+AND complete rollback
+AND clean retry commit
+AND terminal state/receipt/evidence/event verification
+= PASS
+
+Important: this invariant has been implemented as a native-capable validation harness but has not been executed in the current environment.

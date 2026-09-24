@@ -1,0 +1,9 @@
+{
+  "version": "20.48",
+  "title": "Recovery Preflight Evidence + Reconciliation Receipt Binding",
+  "nativeRuntimeValidated": false,
+  "parallelResearchEnabled": false,
+  "liveTradingEnabled": false,
+  "visualRefinementDeferred": true,
+  "nextBuild": "20.49"
+}

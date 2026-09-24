@@ -1,0 +1,8 @@
+{
+  "version": "22.05",
+  "title": "Consolidated Platform Native Runtime, Broker Connector and Startup Recovery",
+  "live_trading_default": "disabled",
+  "real_broker_submission": "not implemented",
+  "native_compilation_claimed": false,
+  "source_file_count": 188
+}

@@ -1,0 +1,16 @@
+QuantForge v20.65 Release Manifest
+=================================
+Release: Consolidated Recovery Reconciliation v20.61-v20.65
+Base: v20.60
+
+Included milestones:
+- v20.61 immutable resolution decision/audit boundary
+- v20.62 authorization binding + stale/expiry protection
+- v20.63 external-side-effect evidence boundary
+- v20.64 adversarial reconciliation matrix
+- v20.65 recovery integration gate
+
+Native runtime: not qualified in current environment.
+Live trading/order authority: disabled.
+Arbitrary imported-code execution: disabled.
+Automatic replay from Prepared-only state: prohibited.

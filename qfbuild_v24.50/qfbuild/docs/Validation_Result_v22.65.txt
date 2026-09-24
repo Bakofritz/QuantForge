@@ -1,0 +1,8 @@
+QuantForge v22.65 validation result
+- C# structural brace validation: PASS
+- ZIP integrity: PASS after packaging
+- Native .NET compilation: NOT CLAIMED (build environment availability limitation)
+- Real broker authentication: NOT CLAIMED
+- Android/Windows native secure-key execution: NOT CLAIMED
+- Production live-money order submission: NOT IMPLEMENTED/CLAIMED
+- Architecture remains fail-closed on stale, missing, mismatched, or unknown live evidence.

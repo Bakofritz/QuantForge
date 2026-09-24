@@ -1,0 +1,15 @@
+QuantForge v20.0 Validation
+
+visual_reference_hook=True
+native_architecture_metadata=True
+radial_shell=True
+central_focus=True
+eight_petal_positions=True
+left_rail=True
+governance_metadata=True
+JS_BLOCKS=28
+JS_NODE_CHECK_FAILS=[]
+XAML_XML_WELL_FORMED=['MainPage.xaml', 'AppShell.xaml', 'App.xaml']
+CS_BRACE_BALANCE=[('DataContracts.cs', True), ('AiContracts.cs', True), ('ReportContracts.cs', True), ('ScoutContracts.cs', True), ('Policy.cs', True), ('MainPage.xaml.cs', True), ('AppShell.xaml.cs', True), ('App.xaml.cs', True), ('Contracts.cs', True), ('StorageContracts.cs', True), ('BacktestContracts.cs', True), ('BotContracts.cs', True)]
+DOTNET_SDK=UNAVAILABLE
+CHROMIUM_SCREENSHOT=ATTEMPTED_TIMEOUT_NO_OUTPUT

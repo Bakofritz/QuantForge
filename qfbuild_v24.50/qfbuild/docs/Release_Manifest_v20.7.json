@@ -1,0 +1,13 @@
+{
+  "release": "20.7",
+  "baseline": "20.6",
+  "focus": [
+    "deterministic robustness",
+    "bounded optimizer chunking",
+    "durable checkpoint attachment"
+  ],
+  "visualWork": "frozen",
+  "pdfAnalysis": "deferred",
+  "liveTrading": false,
+  "nativeCompilation": "blocked-missing-toolchain"
+}

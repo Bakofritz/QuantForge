@@ -1,0 +1,38 @@
+QuantForge Master Build v20.90
+Consolidated Governed Backtest Case Factory & Deterministic Research Batch Execution
+
+Scope
+v20.86-v20.90 consolidated into one milestone build.
+
+Major additions
+- GovernedBacktestBatchService converts approved isolated research contexts into deterministic backtest work.
+- Dataset identity is bound to dataset id, content fingerprint, instrument, and timeframe.
+- Native runtime qualification and read-only research authority are mandatory at admission.
+- Resource admission is mandatory before case execution.
+- Cases are deterministically ordered by ContextId for result aggregation.
+- Existing EmaCrossBacktestEngine is used as the deterministic execution engine.
+- Result fingerprints bind context identity to backtest result hash and metrics.
+- No live order, arbitrary code, or application mutation authority is introduced.
+- Architecture harness plus an in-memory end-to-end fixture validate the new boundary without claiming native runtime qualification.
+
+Architectural chain
+Recovery/Reconciliation -> Native Runtime Qualification -> Resource Admission -> Controlled Lifecycle -> Lease Ownership -> Governed Research Execution -> Governed Backtest Batch -> Terminal Receipt/Checkpoint
+
+Validation
+- C# files: see Validation_Result_v20.90.txt
+- Structural C# validation: PASS
+- Governed backtest architecture: PASS
+- Dataset fingerprint binding: PASS
+- Context/data binding: PASS
+- Deterministic result aggregation: PASS
+- Read-only authority requirement: PASS
+- Native runtime gate: PASS
+- Resource admission gate: PASS
+- Live order authority: DISABLED
+- Arbitrary code execution: DISABLED
+- Native .NET execution: NOT CLAIMED; SDK unavailable in build environment
+- Native SQLite execution: NOT CLAIMED
+- Android/device execution: NOT CLAIMED
+
+Documentation included
+Comprehensive Build Summary, Detailed User Manual, New-Chat Handoff, Validation Result, Release Manifest, Build Count, Source Hashes.

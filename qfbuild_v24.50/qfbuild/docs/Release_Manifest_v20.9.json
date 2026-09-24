@@ -1,0 +1,13 @@
+{
+  "product": "QuantForge Futures Research Platform",
+  "release": "20.9",
+  "baseline": "20.8",
+  "focus": "Durable Monte Carlo checkpoints and resumable research",
+  "visual_refinement": "frozen",
+  "pdf_analysis": "deferred",
+  "native_target": "C# .NET 10 LTS + .NET MAUI Windows + Android",
+  "live_trading": false,
+  "arbitrary_code_execution": false,
+  "canonical_data_mutation": false,
+  "validation": "source-level; native toolchain unavailable"
+}

@@ -1,0 +1,55 @@
+{
+  "version": "21.75",
+  "title": "Consolidated Platform Broker Transport, Connection Lifecycle, Native Secure-Key Adapter Boundaries, and Startup Execution Recovery",
+  "base": "21.65",
+  "status": "architecture-ready / native-and-broker integration pending",
+  "live_trading_default": false,
+  "production_broker_submission_implemented": false,
+  "artifacts": [
+    {
+      "path": "src/QuantForge.Governance/PlatformSecureKeyStoresV21_75.cs",
+      "sha256": "b0557d781220e420a7a0f3d17558b0f44c1f13108f1778c927941fabd3290d69",
+      "bytes": 1339
+    },
+    {
+      "path": "src/QuantForge.Governance/LiveExecutionStartupRecoveryV21_75.cs",
+      "sha256": "15e7c447803d2fb90bfd8a3baaee37eda815a1f13776b316074a8db06a62581f",
+      "bytes": 1425
+    },
+    {
+      "path": "src/QuantForge.Governance/LiveBrokerTransportV21_75.cs",
+      "sha256": "e32c8b0a741ec67603ae3884ec6ff84a28ef5743118cc660585fc6ca6bb3ecd2",
+      "bytes": 6145
+    },
+    {
+      "path": "docs/Validation_Result_v21.75.txt",
+      "sha256": "d98bdf7b1516a51f0c26e379e493a4828bd641e817329a9f9e46aa43e9b93502",
+      "bytes": 875
+    },
+    {
+      "path": "docs/Build_Count_v21.75.txt",
+      "sha256": "4e68a75a92a804f8eab4ffa7b33d1e3815cea9ade15de5e7ff353261ba376012",
+      "bytes": 166
+    },
+    {
+      "path": "docs/New_Chat_Handoff_v21.75.md",
+      "sha256": "f0d2356ecbb408ad22ea108e6ce550f08418b8221dc0e30d7c0722ddec2a06d2",
+      "bytes": 1013
+    },
+    {
+      "path": "docs/User_Manual_v21.75.md",
+      "sha256": "f52b20e9fabaa14d1f6798c7ec2cbb4e5ffc173a79868acf4b23a7c2e9ec16f1",
+      "bytes": 1572
+    },
+    {
+      "path": "docs/Comprehensive_Build_Summary_v21.75.md",
+      "sha256": "235b99e984b66b49fba71ea2e3c5c28f04167890ddb4621f79b5aa9261381f9f",
+      "bytes": 1793
+    },
+    {
+      "path": "tests/QuantForge.ArchitectureTests/LiveExecutionV21_75ArchitectureChecks.cs",
+      "sha256": "3ed4d78ec95c9746e223e856b04fa8e1a724e9e27886ae4754b6a317ad343dc1",
+      "bytes": 1888
+    }
+  ]
+}

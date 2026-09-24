@@ -1,0 +1,8 @@
+{
+  "version": "20.37",
+  "title": "Concurrency Safety Gate + Resource Storage Contention Design",
+  "parallelExecutionEnabled": false,
+  "nativeRuntimeValidated": false,
+  "liveTradingEnabled": false,
+  "deferredUserContributions": true
+}

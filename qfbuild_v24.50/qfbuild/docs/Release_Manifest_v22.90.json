@@ -1,0 +1,12 @@
+{
+  "release": "22.90",
+  "title": "Authenticated Session Renewal Authorization Binding",
+  "source_additions": [
+    "LiveSessionRenewalAuthorizationV22_90.cs"
+  ],
+  "test_additions": [
+    "LiveSessionRenewalAuthorizationV22_90ArchitectureChecks.cs"
+  ],
+  "live_order_submission_validated": false,
+  "native_dotnet_compilation_validated": false
+}

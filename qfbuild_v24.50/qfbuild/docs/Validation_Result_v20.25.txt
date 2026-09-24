@@ -1,0 +1,20 @@
+QuantForge v20.25 validation result
+
+PASS — 66 C# source files structurally balanced.
+PASS — sequence-bound deterministic trade identity checks defined in architecture tests.
+PASS — same-timestamp trade uniqueness check defined in architecture tests.
+PASS — explicit UTC accounting session declaration.
+PASS — session start/roll evidence checks defined in architecture tests.
+PASS — daily-loss-lock transition exactly-once check defined in architecture tests.
+PASS — durable ledger trade/event schemas present.
+PASS — immutable trade fingerprint conflict detection present in SQLite persistence.
+PASS — immutable ledger event fingerprint conflict detection present in SQLite persistence.
+PASS — immutable general evidence/event conflict detection strengthened.
+PASS — runtime position-lifecycle evidence attachment present.
+PASS — research-only/live authority boundary retained.
+
+NOT RUN — native .NET compilation: dotnet SDK/compiler unavailable.
+NOT RUN — Android runtime/device validation: Android SDK/device unavailable.
+NOT RUN — Windows native runtime validation: Windows native runtime unavailable.
+
+This report does not claim native runtime success.

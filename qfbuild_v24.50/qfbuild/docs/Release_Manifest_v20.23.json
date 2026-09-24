@@ -1,0 +1,12 @@
+{
+  "product": "QuantForge Futures Research Platform",
+  "version": "20.23",
+  "title": "Canonical Position Intent + Side-Aware Fill Semantics",
+  "baseline": "20.22",
+  "researchOnly": true,
+  "liveTradingEnabled": false,
+  "visualRefinementFrozen": true,
+  "nativeRuntimeValidated": false,
+  "deferredContributions": ["NT8 REPLAY","NT8 TICK","NT8 MINUTE","NT8 DAILY","REPLAY MATCH","LATENCY DATA"],
+  "nextBuild": "20.24"
+}

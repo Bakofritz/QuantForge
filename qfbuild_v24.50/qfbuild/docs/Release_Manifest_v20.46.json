@@ -1,0 +1,12 @@
+{
+  "release": "20.46",
+  "title": "Transactional Terminal Duplicate-Result Protection",
+  "sourceBaseline": "v20.45",
+  "nativeRuntimeExecuted": false,
+  "liveTradingAuthority": false,
+  "parallelResearchEnabled": false,
+  "sourceCSharpFiles": 93,
+  "totalCSharpFiles": 115,
+  "validation": "CS_STRUCTURAL_BALANCE_PASS",
+  "nextPhase": "v20.47 duplicate terminal reconciliation with worker recovery and batch accounting"
+}

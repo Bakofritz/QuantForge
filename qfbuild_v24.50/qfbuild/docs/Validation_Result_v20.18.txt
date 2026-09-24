@@ -1,0 +1,26 @@
+QuantForge v20.18 Validation Result
+
+C# files: 51
+C# lexical structural balance: PASS
+Profit target semantics: PASS
+Profit target default explicit: PASS
+Risk budget validator: PASS
+Pre-entry risk gate: PASS
+Profit target execution: PASS
+Execution sensitivity evidence runtime: PASS
+Grouped MAUI UI version: PASS
+MAUI XAML grouped risk grid: PASS
+Live authority absent: PASS
+
+Native runtime validation:
+- dotnet SDK: NOT AVAILABLE in build environment
+- Android SDK/device validation: NOT AVAILABLE
+- Windows native runtime validation: NOT AVAILABLE
+
+No native compilation or device/runtime pass is claimed.
+
+Data fidelity:
+OHLCV does not establish tick sequencing, bid/ask, spread, broker routing, exchange matching, or actual network latency.
+
+Safety:
+Imported source execution remains blocked. Live orders remain disabled. AI remains non-authoritative.

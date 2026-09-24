@@ -1,0 +1,17 @@
+QuantForge Master Build Count — v20.90
+
+Completed milestone range: v20.0-v20.90.
+Current consolidated milestone: v20.86-v20.90.
+
+Approximate remaining major-section effort after v20.90 (engineering estimate, not a promise):
+- Durable terminal/recovery integration: 3-5 consolidated milestones
+- Multi-script read-only optimization orchestration: 5-8
+- Strategy import/audit/scrubber layer: 6-9
+- AI research/optimization governance: 6-10
+- Market-data/feed and replay integration: 4-7
+- Risk/governance hardening: 4-7
+- Android application integration: 7-12
+- Reporting/observability/UX: 4-7
+- End-to-end release qualification: 7-12
+
+Compatible milestones should continue to be consolidated into larger build efforts. Actual count may change when native runtime and device testing become available.

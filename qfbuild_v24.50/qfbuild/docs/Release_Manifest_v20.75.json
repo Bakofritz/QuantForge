@@ -1,0 +1,19 @@
+{
+  "build": "20.75",
+  "title": "Consolidated Controlled-Concurrency Lifecycle Foundation",
+  "consolidatedMilestones": [
+    "20.71",
+    "20.72",
+    "20.73",
+    "20.74",
+    "20.75"
+  ],
+  "parallelExecutionEnabled": false,
+  "liveTradingAuthority": false,
+  "arbitraryImportedCodeExecutionAuthority": false,
+  "nativeDotNetRuntimeValidated": false,
+  "nativeSqliteValidated": false,
+  "androidDeviceValidated": false,
+  "sourceFiles": 124,
+  "structuralValidation": "PASS"
+}

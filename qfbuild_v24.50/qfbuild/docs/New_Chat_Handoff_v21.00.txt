@@ -1,0 +1,22 @@
+QuantForge Master Build Handoff — v21.00
+
+Completed: Consolidated research execution integration milestone covering v20.91-v21.00.
+
+Key new component:
+- src/QuantForge.Runtime/ResearchBatchIntegrationV21.cs
+  - GovernedOptimizationJobRequest/Result
+  - GovernedOptimizationJobService
+  - ResearchBatchIntegrationValidationHarness
+
+Prior architecture retained:
+- Recovery continuation and reconciliation gates
+- Native runtime qualification gate
+- Resource admission and controlled concurrency lifecycle
+- Lease-aware MultiCaseExecutionCoordinator
+- Terminal receipts and checkpoint/recovery integration
+- GovernedBacktestBatchService
+- DeterministicBacktestEngine and DeterministicOptimizer
+
+Next recommended consolidated section:
+- Strategy import/scrubbing/auditing boundary, including feature inventory, capability selection, canonicalization, provenance, and pre-commit safety review.
+- Preserve read-only optimization as the default analysis authority.

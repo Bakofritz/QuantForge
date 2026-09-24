@@ -1,0 +1,12 @@
+v20.36 VALIDATION RESULT
+==========================
+CSharpFiles=89
+CS_STRUCTURAL_BALANCE_PASS
+TerminalStateAgreement=PASS
+ControlledConcurrencyReviewArchitecture=PASS
+RuntimeIntegration=PASS
+ParallelExecutionEnabled=FALSE
+LiveTradingEnabled=FALSE
+NativeDotnetCompile=NOT_AVAILABLE
+WindowsRuntimeValidation=NOT_AVAILABLE
+AndroidRuntimeValidation=NOT_AVAILABLE

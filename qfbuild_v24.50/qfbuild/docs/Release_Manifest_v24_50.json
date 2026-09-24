@@ -1,0 +1,17 @@
+{
+  "release": "v24.50",
+  "title": "Research Product Candidate Gate",
+  "cumulative_base": "v24.45",
+  "csharp_source_files_under_src": 217,
+  "total_csharp_files_in_package": 225,
+  "live_brokerage_enabled": false,
+  "live_order_submission_enabled": false,
+  "simulation_enabled": true,
+  "market_data_read_only": true,
+  "nt8_future_prerequisite_only": true,
+  "validation": {
+    "zip_integrity": "PASS",
+    "csharp_brace_check": "PASS",
+    "native_dotnet_compile": "NOT_CLAIMED"
+  }
+}

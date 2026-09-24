@@ -1,0 +1,10 @@
+{
+  "version": "20.36",
+  "title": "Terminal-State Agreement + Controlled Concurrency Design Review",
+  "nativeCompileValidated": false,
+  "parallelExecutionEnabled": false,
+  "liveTradingEnabled": false,
+  "filesCSharp": 89,
+  "validation": "CS_STRUCTURAL_BALANCE_PASS",
+  "nextBuild": "20.37"
+}

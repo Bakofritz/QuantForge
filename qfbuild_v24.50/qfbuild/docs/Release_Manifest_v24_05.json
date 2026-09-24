@@ -1,0 +1,13 @@
+{
+  "release": "v24.05",
+  "title": "Deterministic Replay Certification",
+  "cumulative_base": "v23.70",
+  "csharp_source_files_under_src": 208,
+  "total_csharp_files_in_package": 286,
+  "live_brokerage_enabled": false,
+  "live_order_submission_enabled": false,
+  "simulation_enabled": true,
+  "market_data_read_only": true,
+  "nt8_future_prerequisite_only": true,
+  "validation": {"zip_integrity": "PASS", "csharp_brace_check": "PASS", "native_dotnet_compile": "NOT_CLAIMED"}
+}

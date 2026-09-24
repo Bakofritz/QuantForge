@@ -1,0 +1,12 @@
+{
+  "release": "22.95",
+  "title": "Persistent Audit Continuity Checkpoint",
+  "source_additions": [
+    "LiveAuditContinuityCheckpointV22_95.cs"
+  ],
+  "test_additions": [
+    "LiveAuditContinuityCheckpointV22_95ArchitectureChecks.cs"
+  ],
+  "live_order_submission_validated": false,
+  "native_dotnet_compilation_validated": false
+}

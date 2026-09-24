@@ -1,0 +1,9 @@
+{
+  "version": "22.25",
+  "release_type": "consolidated architecture and safety build",
+  "previous_release": "22.15",
+  "additions": ["live environment state/capability snapshot", "recovery authorization binding", "adversarial recovery matrix"],
+  "live_order_submission": false,
+  "unknown_order_auto_retry": false,
+  "reconnect_rearms_live_pathway": false
+}

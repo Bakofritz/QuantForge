@@ -1,0 +1,17 @@
+QuantForge v20.30 Validation Result
+
+CS files: 73
+Structural brace balance: PASS
+IResourceReceiptStore contract: PASS
+SQLite resource receipt/batch tables: PASS
+Worker identity contract/fingerprint: PASS
+Batch timeout enforcement present: PASS
+Stable receipt identity fingerprint excludes runtime duration/heartbeat metrics: PASS
+Sequential execution safety gate present: PASS
+Live trading enabled: NO
+Native .NET compilation: NOT AVAILABLE (SDK absent)
+Windows native validation: NOT AVAILABLE
+Android native validation: NOT AVAILABLE
+Device/integration runtime validation: NOT CLAIMED
+
+Conclusion: source-level v20.30 validation PASS within the available environment; native runtime validation remains outstanding.

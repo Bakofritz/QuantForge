@@ -1,0 +1,10 @@
+{
+  "release": "20.60",
+  "title": "Prepared-Operation Reconciliation Decision Record & External-Side-Effect Boundary Harness",
+  "csharp_files": 154,
+  "source_csharp_files": 116,
+  "native_dotnet_execution": false,
+  "native_sqlite_execution": false,
+  "live_trading_authority": false,
+  "automatic_prepared_replay": false
+}

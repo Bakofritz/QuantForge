@@ -1,0 +1,9 @@
+{
+  "version": "20.33",
+  "title": "Durable Checkpoint-Bound Case Continuation",
+  "nativeCompilationValidated": false,
+  "parallelExecutionEnabled": false,
+  "liveTradingEnabled": false,
+  "visualRefinementFrozen": true,
+  "artifacts": ["Comprehensive_Build_Summary_v20.33.md", "New_Chat_Handoff_v20.33.md", "User_Manual_v20.33.md", "Validation_Result_v20.33.txt"]
+}

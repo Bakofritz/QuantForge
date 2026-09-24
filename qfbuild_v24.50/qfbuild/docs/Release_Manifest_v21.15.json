@@ -1,0 +1,15 @@
+{
+  "version": "21.15",
+  "title": "Consolidated Strategy Semantics & Live-Trading Security Framework",
+  "source_files": 143,
+  "native_runtime_claimed": false,
+  "live_order_execution_enabled": false,
+  "arbitrary_imported_code_execution": false,
+  "required_docs": [
+    "Comprehensive_Build_Summary_v21.15.md",
+    "User_Manual_v21.15.md",
+    "New_Chat_Handoff_v21.15.md",
+    "Validation_Result_v21.15.txt",
+    "Source_Hashes_v21.15.txt"
+  ]
+}

@@ -1,0 +1,12 @@
+QF v20.47 VALIDATION
+CS structural balance: PASS
+Worker recovery integrity service: PRESENT
+Terminal receipt reconciliation: PRESENT
+Cancellation recovery block: PRESENT
+Foreign active lease block: PRESENT
+Terminal-job-without-receipt detection: PRESENT
+Runtime validation entry point: PRESENT
+Native .NET execution: NOT AVAILABLE
+Native SQLite execution: NOT EXECUTED
+Parallel research: DISABLED
+Live trading/order authority: NONE

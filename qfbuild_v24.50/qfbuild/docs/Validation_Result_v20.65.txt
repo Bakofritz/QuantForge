@@ -1,0 +1,37 @@
+QuantForge v20.65 Consolidated Validation Result
+================================================
+Release: v20.61-v20.65 Recovery Reconciliation Consolidation
+
+CONSOLIDATED MILESTONES
+- v20.61: Immutable resolution decision/audit boundary
+- v20.62: Resolution authorization binding and stale/expiry protection
+- v20.63: External-side-effect evidence boundary
+- v20.64: Adversarial reconciliation/fault matrix
+- v20.65: Recovery subsystem integration gate
+
+STRUCTURAL VALIDATION
+- Immutable resolution contract: PASS
+- Resolution is bound to operation, decision, evidence, and resolver: PASS
+- Expiration and one-use semantics represented: PASS
+- Stale decision rejection: PASS
+- External-side-effect evidence contract: PASS
+- External evidence does not grant callback authority: PASS
+- Prepared-only automatic replay remains prohibited: PASS
+- Duplicate/conflicting reconciliation handling represented: PASS
+- Consolidated integration gate harness: PASS
+- Deterministic source/architecture validation: PASS
+
+RUNTIME VALIDATION
+- Native .NET execution: UNAVAILABLE (dotnet SDK not present in build environment)
+- Native SQLite execution: NOT CLAIMED
+- Deterministic source/architecture validation: PASS
+
+SAFETY
+- Live trading/order authority: DISABLED
+- Arbitrary imported-code execution authority: DISABLED
+- Automatic replay from Prepared-only state: PROHIBITED
+- Resolution records cannot directly invoke continuation callbacks
+- External-side-effect evidence cannot independently authorize execution
+
+LIMITATION
+This release consolidates five planned architectural milestones into one source/build effort. It does not claim native runtime qualification. Native .NET/SQLite and Android/device integration remain separate validation gates.

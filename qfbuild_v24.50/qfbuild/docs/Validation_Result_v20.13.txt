@@ -1,0 +1,14 @@
+QuantForge v20.13 source validation
+C# files: 40
+Canonical plan contract: PASS
+EMA adapter: PASS
+Cross signal adapter: PASS
+Explicit unsupported reporting: PASS
+No source execution: PASS
+Chronology gate: PASS
+Live authority absent: PASS
+Deterministic fingerprint: PASS
+Indicator evaluation: PASS
+Chart markers: PASS
+Native dotnet compilation: NOT AVAILABLE
+Android/Windows runtime validation: NOT CLAIMED

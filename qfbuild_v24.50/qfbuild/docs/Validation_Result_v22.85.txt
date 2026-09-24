@@ -1,0 +1,10 @@
+QuantForge v22.85 validation result
+
+PASS: C# structural brace validation performed on cumulative source.
+PASS: release archive integrity checked with unzip -t.
+PASS: architecture checks added for Native Secure Runtime Capability Lifecycle.
+NOT CLAIMED: native .NET compilation (toolchain not validated in this environment).
+NOT CLAIMED: real Android Keystore execution.
+NOT CLAIMED: real Windows protected-key execution.
+NOT CLAIMED: real broker authentication or production live-money order submission.
+FAIL-CLOSED: live continuation remains gated by cumulative security/recovery conditions.

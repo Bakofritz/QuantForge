@@ -1,0 +1,15 @@
+QF v20.33 validation
+CS files: 81
+Structural balance: PASS
+Checkpoint-bound continuation contract: PASS
+Cursor regression gate: PASS
+State hash gate: PASS
+Checkpoint persistence: PASS
+Lease renewal: PASS
+Lease release: PASS
+Completion evidence event: PASS
+Parallel execution: DISABLED
+Live trading authority: NOT ADDED
+Native .NET compilation: NOT AVAILABLE
+Android runtime validation: NOT AVAILABLE
+Windows runtime validation: NOT AVAILABLE

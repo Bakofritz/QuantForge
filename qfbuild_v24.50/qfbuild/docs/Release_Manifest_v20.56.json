@@ -1,0 +1,18 @@
+{
+  "version": "20.56",
+  "title": "Recovery Continuation Fault-Injection Harness",
+  "nativeRuntimeValidated": false,
+  "nativeSqliteValidated": false,
+  "parallelResearchEnabled": false,
+  "liveTradingEnabled": false,
+  "visualRefinementDeferred": true,
+  "nextBuild": "20.57",
+  "requiredPackageDocuments": [
+    "Comprehensive_Build_Summary_v20.56.md",
+    "User_Manual_v20.56.md",
+    "New_Chat_Handoff_v20.56.md",
+    "Validation_Result_v20.56.txt",
+    "Release_Manifest_v20.56.json",
+    "Source_Hashes_v20.56.txt"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "product": "QuantForge",
+  "version": "21.85",
+  "milestone": "Consolidated Platform Secure Integration, Transactional Audit, Authenticated Broker Preparation and Recovery",
+  "live_trading_default": false,
+  "real_broker_execution_implemented": false,
+  "native_compilation_claimed": false,
+  "key_security": "platform-adapter boundary; fail closed when unavailable",
+  "audit_storage": "SQLite transactional boundary",
+  "ambiguous_execution_policy": "reconcile before retry",
+  "documentation": [
+    "Comprehensive_Build_Summary_v21.85.md",
+    "User_Manual_v21.85.md",
+    "New_Chat_Handoff_v21.85.md",
+    "Validation_Result_v21.85.txt",
+    "Release_Manifest_v21.85.json",
+    "Source_Hashes_v21.85.txt"
+  ]
+}

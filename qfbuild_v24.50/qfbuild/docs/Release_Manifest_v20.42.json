@@ -1,0 +1,18 @@
+{
+  "release": "20.42",
+  "name": "Durable Native Fault-Result Reconciliation + Failure-Recovery Invariants",
+  "parallelExecutionEnabled": false,
+  "liveTradingAuthority": false,
+  "nativeValidationExecuted": false,
+  "faultPoints": ["LeaseAcquire", "LeaseRenew", "CheckpointWrite", "ReceiptWrite", "EvidenceWrite", "ValidationResultWrite", "JobStateWrite"],
+  "nativeRecoveryAdapterImplemented": true,
+  "recoveryInvariantValidationImplemented": true,
+  "artifacts": [
+    "Comprehensive_Build_Summary_v20.42.md",
+    "New_Chat_Handoff_v20.42.md",
+    "User_Manual_v20.42.md",
+    "Validation_Result_v20.42.txt",
+    "Release_Manifest_v20.42.json",
+    "Source_Hashes_v20.42.txt"
+  ]
+}

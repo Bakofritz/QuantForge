@@ -1,0 +1,25 @@
+{
+  "version": "21.65",
+  "title": "Consolidated Platform Integration, Transactional Execution Persistence, Broker Serialization, and Recovery Gate",
+  "base": "21.55",
+  "status": "architecture-ready / native-integration pending",
+  "live_trading_default": false,
+  "production_broker_submission_implemented": false,
+  "artifacts": [
+    {
+      "path": "src/QuantForge.Governance/LiveExecutionPlatformIntegrationV21_65.cs",
+      "sha256": "5a7771cb676658ba6f49d020e38718d4591d4b958dc50d7985623d72f2acdcdf",
+      "bytes": 8615
+    },
+    {
+      "path": "src/QuantForge.Governance/QuantForge.Governance.csproj",
+      "sha256": "9cb629b4573e563321edabb318417848898a724f410ff0dabb576f2a521ce384",
+      "bytes": 524
+    },
+    {
+      "path": "tests/QuantForge.ArchitectureTests/LiveExecutionPlatformIntegrationArchitectureChecks.cs",
+      "sha256": "9c388230e09407bff65bd7dfb37bb2712074ff8180f55b8e6b6284a6aa881b3c",
+      "bytes": 3071
+    }
+  ]
+}

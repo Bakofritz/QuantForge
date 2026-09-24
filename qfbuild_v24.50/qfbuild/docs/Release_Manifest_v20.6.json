@@ -1,0 +1,9 @@
+{
+  "release": "20.6",
+  "baseline": "20.5",
+  "artifact": "QuantForge_v20.6_Optimization_WalkForward.zip",
+  "zip_sha256": "175858a9a48e118ea9d6673f2ad75fb48dfccca83b6642ee456f217596fc42c7",
+  "focus": "deterministic optimization and chronological walk-forward analysis",
+  "visual_refinement": "frozen",
+  "pdf_analysis": "skipped"
+}

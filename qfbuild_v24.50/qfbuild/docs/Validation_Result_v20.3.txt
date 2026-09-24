@@ -1,0 +1,41 @@
+C# structural balance: 16 / 16
+PASS src/QuantForge.Data/MarketData.cs
+PASS src/QuantForge.Data/DataContracts.cs
+PASS src/QuantForge.AI/AiContracts.cs
+PASS src/QuantForge.Reporting/ReportContracts.cs
+PASS src/QuantForge.Scout/ScoutContracts.cs
+PASS src/QuantForge.Governance/Policy.cs
+PASS src/QuantForge.App/MainPage.xaml.cs
+PASS src/QuantForge.App/AppShell.xaml.cs
+PASS src/QuantForge.App/App.xaml.cs
+PASS src/QuantForge.Core/Contracts.cs
+PASS src/QuantForge.Storage/StorageContracts.cs
+PASS src/QuantForge.Storage/SqliteLocalStore.cs
+PASS src/QuantForge.Backtesting/BacktestContracts.cs
+PASS src/QuantForge.Backtesting/DeterministicBacktestEngine.cs
+PASS src/QuantForge.Bots/BotContracts.cs
+PASS src/QuantForge.Core/Runtime/ResearchRuntime.cs
+PASS src/QuantForge.Data/QuantForge.Data.csproj target-framework
+PASS src/QuantForge.AI/QuantForge.AI.csproj target-framework
+PASS src/QuantForge.Reporting/QuantForge.Reporting.csproj target-framework
+PASS src/QuantForge.Scout/QuantForge.Scout.csproj target-framework
+PASS src/QuantForge.Governance/QuantForge.Governance.csproj target-framework
+PASS src/QuantForge.App/QuantForge.App.csproj target-framework
+PASS src/QuantForge.Core/QuantForge.Core.csproj target-framework
+PASS src/QuantForge.Storage/QuantForge.Storage.csproj target-framework
+PASS src/QuantForge.Backtesting/QuantForge.Backtesting.csproj target-framework
+PASS src/QuantForge.Bots/QuantForge.Bots.csproj target-framework
+PASS policy LIVE_ORDER
+PASS policy LIVE_TRADING
+PASS policy ARBITRARY_CODE_EXECUTION
+PASS policy CANONICAL_DATA_MUTATION
+PASS policy UNDECLARED_APP_MUTATION
+PASS policy MANIFEST_MUTATION
+PASS deterministic-run-id
+PASS storage different immutable fingerprint
+PASS storage Stored dataset
+PASS storage PRAGMA journal_mode=WAL
+PASS storage market_bars
+
+
+NOTE: Structural validation is not C# compilation. Native runtime is not claimed because dotnet is unavailable.

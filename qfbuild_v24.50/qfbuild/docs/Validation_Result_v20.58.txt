@@ -1,0 +1,32 @@
+QuantForge v20.58 Validation Result
+==================================
+
+Release: Continuation Commit Idempotency and Crash-Replay Boundary Harness
+Parent: v20.57
+
+STRUCTURAL VALIDATION
+- C# brace balance: PASS
+- Total C# files: 149
+- Source C# files: 113
+- Replay store contract: PASS
+- Replay persistence table/methods: PASS
+- Operation fingerprint before callback: PASS
+- Prepared record before callback: PASS
+- ResultRecorded before checkpoint save: PASS
+- Prepared-only replay fails closed: PASS
+- ResultRecorded replay skips callback: PASS
+- Architecture test source present: PASS
+- Deterministic replay harness source present: PASS
+
+ENVIRONMENT LIMITATIONS
+- Native .NET execution: UNAVAILABLE
+- Native SQLite execution: NOT CLAIMED
+- Native runtime test execution: NOT CLAIMED
+
+SAFETY
+- Parallel research: DISABLED
+- Live trading/order authority: DISABLED
+- Arbitrary imported-code execution authority: NOT INTRODUCED
+
+RESIDUAL CRASH BOUNDARY
+A Prepared-only operation remains ambiguous and is intentionally blocked. This build does not claim impossible exactly-once semantics across an arbitrary callback/process crash boundary. ResultRecorded operations can be replayed without invoking the callback again.

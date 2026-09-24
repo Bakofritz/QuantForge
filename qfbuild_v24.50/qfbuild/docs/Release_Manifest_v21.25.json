@@ -1,0 +1,10 @@
+{
+  "version": "21.25",
+  "baseline": "21.15",
+  "title": "Consolidated Live Security Persistence, Authentication, Broker Capability, Risk Health, and Final Order Admission",
+  "live_order_submission_implemented": false,
+  "native_build_verified": false,
+  "default_live_pathway_enabled": false,
+  "files": 636,
+  "source_hash_file": "docs/Source_Hashes_v21.25.txt"
+}

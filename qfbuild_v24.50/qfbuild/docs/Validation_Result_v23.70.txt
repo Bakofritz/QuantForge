@@ -1,0 +1,9 @@
+QuantForge v23.70 validation
+C# files: 201
+Structural brace validation: PASS (0 mismatches)
+Architecture checks: PASS (files present)
+Live brokerage connection: HARD DISABLED
+Live order submission: HARD DISABLED
+Real broker authentication: NOT PERFORMED
+Production order submission: NOT PERFORMED
+Native .NET compilation: NOT CLAIMED

@@ -1,0 +1,16 @@
+{
+  "version": "20.85",
+  "name": "Consolidated Governed Research Execution Adapter",
+  "consolidatedMilestones": ["20.81", "20.82", "20.83", "20.84", "20.85"],
+  "nativeRuntimeQualified": false,
+  "liveTradingAuthority": false,
+  "arbitraryCodeExecutionAuthority": false,
+  "documentation": [
+    "Comprehensive_Build_Summary_v20.85.md",
+    "User_Manual_v20.85.md",
+    "New_Chat_Handoff_v20.85.md",
+    "Validation_Result_v20.85.txt",
+    "Build_Count_v20.85.txt",
+    "Source_Hashes_v20.85.txt"
+  ]
+}

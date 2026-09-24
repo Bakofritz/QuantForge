@@ -1,0 +1,13 @@
+{
+  "product": "QuantForge Futures Research Platform",
+  "release": "20.11",
+  "baseline": "20.10",
+  "focus": "Native strategy acquisition, quarantine, first-line source scrubber, component selection, canonical strategy model",
+  "visual_refinement": "frozen",
+  "pdf_analysis": "deferred",
+  "live_trading": false,
+  "arbitrary_code_execution": false,
+  "canonical_data_mutation": false,
+  "validation": "source-level",
+  "native_compile_verified": false
+}

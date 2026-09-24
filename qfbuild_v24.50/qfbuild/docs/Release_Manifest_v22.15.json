@@ -1,0 +1,8 @@
+{
+  "version": "22.15",
+  "release": "Consolidated Platform Secure Runtime, Broker State Normalization and Recovery Orchestration",
+  "liveTradingDefault": "OFF",
+  "realBrokerSubmission": false,
+  "nativeProductionValidation": false,
+  "requiredDocs": ["Comprehensive_Build_Summary_v22.15.md", "User_Manual_v22.15.md", "New_Chat_Handoff_v22.15.md", "Validation_Result_v22.15.txt", "Release_Manifest_v22.15.json", "Source_Hashes_v22.15.txt"]
+}

@@ -1,0 +1,16 @@
+{
+  "release": "20.28",
+  "baseline": "20.27",
+  "theme": "Durable Multi-Case Checkpoint Orchestration",
+  "nativeTarget": "C# / .NET 10 LTS + .NET MAUI",
+  "platforms": [
+    "Windows",
+    "Android"
+  ],
+  "visualRefinement": "deferred",
+  "nativeCompileValidated": false,
+  "parallelExecutionValidated": false,
+  "liveTrading": false,
+  "arbitrarySourceExecution": false,
+  "csharpFileCount": 71
+}

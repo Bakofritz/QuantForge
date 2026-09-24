@@ -1,0 +1,16 @@
+{
+  "product": "QuantForge Futures Research Platform",
+  "version": "20.22",
+  "codename": "Ledger-Bound Execution Research",
+  "baseline": "20.21",
+  "visualRefinement": "deferred",
+  "nativeCompile": "blocked-environment",
+  "liveTradingAuthority": false,
+  "primaryInstrument": "MES",
+  "plannedInstrument": "MNQ",
+  "newComponents": [
+    "LedgerBoundBacktestRunner",
+    "signed-position risk groundwork",
+    "ExecutionTelemetry"
+  ]
+}

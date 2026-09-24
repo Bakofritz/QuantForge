@@ -1,0 +1,18 @@
+QuantForge v20.16 source validation
+C# files: 47
+Trading risk defaults: PASS
+$3,000 initial account default: PASS
+MES primary / MNQ planned: PASS
+1-contract initial limit: PASS
+Conservative stop + trailing settings: PASS
+$0.95/side user simulation commission assumption: PASS
+Slippage model: PASS
+Windows Ethernet/Wi-Fi and Android Wi-Fi/mobile-data latency scenarios: PASS
+Deterministic execution-cost model: PASS
+Risk stop/trailing engine: PASS
+Risk fingerprint bound to canonical execution plan: PASS
+Grouped MAUI UI formatting: PASS
+No broker connection/order authority: PASS
+Live trading remains blocked: PASS
+Native .NET/MAUI/device compilation: NOT RUN — required SDK/toolchain unavailable in build environment
+ZIP integrity: PASS

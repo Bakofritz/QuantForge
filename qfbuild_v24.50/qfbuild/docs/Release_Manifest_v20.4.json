@@ -1,0 +1,18 @@
+{
+  "product": "QuantForge Futures Research Platform",
+  "release": "20.4",
+  "baseline": "20.3",
+  "focus": "durable research lifecycle and event-strategy boundary",
+  "visualRefinement": "deferred",
+  "nativeTarget": ["net10.0", "net10.0-android", "net10.0-windows10.0.19041.0"],
+  "liveTrading": false,
+  "liveOrders": false,
+  "arbitraryCodeExecution": false,
+  "canonicalDataMutation": false,
+  "manifestMutation": false,
+  "aiApplicationMutation": false,
+  "dataFidelity": "OHLCV only unless a higher-fidelity source is actually supplied",
+  "requiredDocumentation": ["User_Manual_v20.4.md", "New_Chat_Handoff_v20.4.md", "Comprehensive_Build_Summary_v20.4.md"],
+  "nativeCompilationCertified": false,
+  "deviceRuntimeCertified": false
+}

@@ -1,0 +1,15 @@
+{
+  "release": "20.8",
+  "baseline": "20.7",
+  "focus": [
+    "deterministic Monte Carlo",
+    "bootstrap resampling",
+    "durable runtime attachment"
+  ],
+  "visualWork": "frozen",
+  "pdfAnalysis": "deferred",
+  "liveTrading": false,
+  "nativeCompilation": "blocked-missing-toolchain",
+  "validation": "source-level",
+  "sourceFileCount": 32
+}

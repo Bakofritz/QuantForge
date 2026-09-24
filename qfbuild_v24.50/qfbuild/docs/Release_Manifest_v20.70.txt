@@ -1,0 +1,8 @@
+QuantForge v20.70
+Release: Consolidated Native Qualification & Concurrency Admission Foundation
+Base: v20.65
+Consolidated milestones: v20.66-v20.70
+Native runtime qualified: false
+Parallel research execution enabled: false
+Live trading/order authority: false
+Arbitrary imported-code execution authority: false

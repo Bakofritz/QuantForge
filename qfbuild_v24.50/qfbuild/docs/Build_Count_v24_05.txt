@@ -1,0 +1,3 @@
+Build release: v24.05
+C# source files under src: 208
+Total C# files including tests: 286

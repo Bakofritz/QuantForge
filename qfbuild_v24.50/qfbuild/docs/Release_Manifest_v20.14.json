@@ -1,0 +1,14 @@
+{
+  "release": "20.14",
+  "baseline": "20.13",
+  "title": "Structured Canonical Strategy Semantics",
+  "nativeCompilationValidated": false,
+  "liveTradingEnabled": false,
+  "sourceExecutionEnabled": false,
+  "filesValidated": 42,
+  "visualRefinementFrozen": true,
+  "pdfAnalysisDeferred": true,
+  "canonicalSemanticPersistence": true,
+  "canonicalIndicatorArtifact": true,
+  "canonicalBacktestBridge": true
+}

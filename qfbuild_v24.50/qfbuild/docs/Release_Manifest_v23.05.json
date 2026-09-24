@@ -1,0 +1,12 @@
+{
+  "release": "23.05",
+  "title": "Consolidated Startup and Recovery Replay Matrix",
+  "source_additions": [
+    "LiveStartupRecoveryReplayMatrixV23_05.cs"
+  ],
+  "test_additions": [
+    "LiveStartupRecoveryReplayMatrixV23_05ArchitectureChecks.cs"
+  ],
+  "live_order_submission_validated": false,
+  "native_dotnet_compilation_validated": false
+}

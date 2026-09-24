@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net10.0-android;net10.0-windows10.0.19041.0</TargetFrameworks>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>QuantForge.App</RootNamespace>
+    <UseMaui>true</UseMaui>
+    <SingleProject>true</SingleProject>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationTitle>QuantForge Futures</ApplicationTitle>
+    <ApplicationId>com.quantforge.futures</ApplicationId>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuantForge.Core\QuantForge.Core.csproj" />
+    <ProjectReference Include="..\QuantForge.Data\QuantForge.Data.csproj" />
+    <ProjectReference Include="..\QuantForge.Governance\QuantForge.Governance.csproj" />
+    <ProjectReference Include="..\QuantForge.Backtesting\QuantForge.Backtesting.csproj" />
+    <ProjectReference Include="..\QuantForge.Bots\QuantForge.Bots.csproj" />
+    <ProjectReference Include="..\QuantForge.AI\QuantForge.AI.csproj" />
+    <ProjectReference Include="..\QuantForge.Scout\QuantForge.Scout.csproj" />
+    <ProjectReference Include="..\QuantForge.Reporting\QuantForge.Reporting.csproj" />
+    <ProjectReference Include="..\QuantForge.Storage\QuantForge.Storage.csproj" />
+    <ProjectReference Include="..\QuantForge.Runtime\QuantForge.Runtime.csproj" />
+  </ItemGroup>
+</Project>

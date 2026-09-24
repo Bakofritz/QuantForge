@@ -1,0 +1,9 @@
+Release: QuantForge v20.30
+Archive SHA-256: generated after packaging; see release artifact hash in handoff/conversation.
+Primary new source files:
+- src/QuantForge.Runtime/ResourceGovernance.cs
+- src/QuantForge.Runtime/MultiCaseExecutionCoordinator.cs
+- src/QuantForge.Storage/StorageContracts.cs
+- src/QuantForge.Storage/SqliteLocalStore.cs
+- src/QuantForge.Runtime/ResearchRuntime.cs
+- tests/QuantForge.ArchitectureTests/ResourceGovernanceArchitectureChecks.cs

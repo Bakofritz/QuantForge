@@ -1,0 +1,12 @@
+QuantForge v20.9 source validation
+C# files: 33
+progress persistence: PASS
+progress table: PASS
+fingerprint-bound resume: PASS
+integrity hash verification: PASS
+cancellation check: PASS
+lease renewal: PASS
+chunk execution: PASS
+durable checkpoint: PASS
+final evidence: PASS
+no live order authority: PASS

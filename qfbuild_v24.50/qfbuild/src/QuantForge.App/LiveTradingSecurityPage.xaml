@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QuantForge.App.LiveTradingSecurityPage"
+             BackgroundColor="#02090D"
+             Title="Live Trading Security">
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="14">
+            <Border BackgroundColor="#8B0000" Stroke="#FF3B30" StrokeThickness="4" StrokeShape="RoundRectangle 14" Padding="14">
+                <VerticalStackLayout>
+                    <Label Text="⚠ LIVE TRADING SECURITY CONTROL PLANE" TextColor="White" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                    <Label Text="Default state: OFF · Research remains isolated from live communications" TextColor="White" FontSize="11" HorizontalTextAlignment="Center" />
+                </VerticalStackLayout>
+            </Border>
+            <Border Stroke="#25424E" StrokeShape="RoundRectangle 14" Padding="14">
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="PATHWAY STATE" TextColor="#8DA8B4" FontSize="10" />
+                    <Label Text="RESEARCH ONLY / LIVE PATHWAY DISABLED" TextColor="#7BE8D5" FontSize="16" FontAttributes="Bold" />
+                    <Label Text="Changing this setting requires fresh login reauthentication plus two independent step-up factors." TextColor="#BBD0D7" FontSize="11" />
+                    <Button Text="Enable Live Trading Pathway" />
+                </VerticalStackLayout>
+            </Border>
+            <Border Stroke="#E7B94F" StrokeShape="RoundRectangle 14" Padding="14">
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="COMMUNICATION SCOPE" TextColor="#8DA8B4" FontSize="10" />
+                    <Label Text="Broker connection" />
+                    <Label Text="Live market data" />
+                    <Label Text="Account / position state" />
+                    <Label Text="Execution reports" />
+                    <Label Text="Order routing" FontAttributes="Bold" />
+                    <Label Text="Risk alerts + heartbeat" FontAttributes="Bold" />
+                    <Label Text="Each capability is independently governed; dependencies are enforced automatically." TextColor="#8DA8B4" FontSize="10" />
+                </VerticalStackLayout>
+            </Border>
+            <Border Stroke="#25424E" StrokeShape="RoundRectangle 14" Padding="14">
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="FINAL ORDER ADMISSION" TextColor="#8DA8B4" FontSize="10" />
+                    <Label Text="Strategy binding · risk health · runtime qualification · broker capability · recovery state · bot capability · emergency control" TextColor="#BBD0D7" FontSize="11" />
+                    <Label Text="No single setting, bot registration, or AI action can bypass the final admission gate." TextColor="#FF9A86" FontSize="11" FontAttributes="Bold" />
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,9 @@
+{
+  "version": "20.32",
+  "title": "Controlled Recovery Continuation + Checkpoint Validation",
+  "nativeRuntimeValidated": false,
+  "parallelExecutionEnabled": false,
+  "liveTradingAuthority": false,
+  "visualRefinementDeferred": true,
+  "primaryArtifact": "QuantForge_v20.32_Controlled_Recovery_Continuation.zip"
+}

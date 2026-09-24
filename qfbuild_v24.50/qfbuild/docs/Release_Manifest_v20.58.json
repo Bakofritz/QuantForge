@@ -1,0 +1,26 @@
+{
+  "product": "QuantForge Futures Research Platform",
+  "version": "20.58",
+  "release": "Continuation Commit Idempotency and Crash-Replay Boundary Harness",
+  "parent_release": "20.57",
+  "validation_status": "PASS_STRUCTURAL",
+  "native_runtime_validated": false,
+  "native_sqlite_validated": false,
+  "parallel_research_enabled": false,
+  "live_trading_enabled": false,
+  "artifacts": [
+    "src/QuantForge.Runtime/RecoveryContinuationReplayFingerprint.cs",
+    "src/QuantForge.Runtime/RecoveryContinuationReplayHarness.cs",
+    "src/QuantForge.Storage/RecoveryContinuationReplayContracts.cs",
+    "src/QuantForge.Storage/SqliteLocalStore.cs",
+    "src/QuantForge.Runtime/CheckpointBoundContinuationService.cs",
+    "tests/QuantForge.ArchitectureTests/RecoveryContinuationReplayArchitectureChecks.cs",
+    "docs/Comprehensive_Build_Summary_v20.58.md",
+    "docs/User_Manual_v20.58.md",
+    "docs/New_Chat_Handoff_v20.58.md",
+    "docs/Validation_Result_v20.58.txt",
+    "docs/Release_Manifest_v20.58.json",
+    "docs/Source_Hashes_v20.58.txt"
+  ],
+  "next_build": "20.59 Continuation Result/Checkpoint Atomicity Adapter and Reconciliation Boundary Harness"
+}

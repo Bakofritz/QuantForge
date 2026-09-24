@@ -1,0 +1,12 @@
+{
+  "release": "23.00",
+  "title": "Recovery State Persistence and Restart Restoration",
+  "source_additions": [
+    "LiveRecoveryStatePersistenceV23_00.cs"
+  ],
+  "test_additions": [
+    "LiveRecoveryStatePersistenceV23_00ArchitectureChecks.cs"
+  ],
+  "live_order_submission_validated": false,
+  "native_dotnet_compilation_validated": false
+}

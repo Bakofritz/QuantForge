@@ -1,0 +1,13 @@
+SMA evaluator: PASS
+ATR evaluator: PASS
+SMA indicator plan: PASS
+SMA execution remains bounded: PASS
+ATR true range: PASS
+Canonical timeframe binding: PASS
+Causal observation bridge: PASS
+Chronology validation: PASS
+Deterministic fingerprints: PASS
+No source execution: PASS
+No live authority: PASS
+Core semantics retained: PASS
+C# files: 42

@@ -1,0 +1,3 @@
+namespace QuantForge.Governance;
+public sealed record LiveRecoveryEvidenceBundleV22_75(string ExecutionId,string IdempotencyKey,string RequestFingerprint,string BrokerOrderId,string SessionId,string AuthorityFingerprint,string AuditHead);
+public static class LiveRecoveryEvidenceGateV22_75 { public static bool IsComplete(LiveRecoveryEvidenceBundleV22_75 e)=>!string.IsNullOrWhiteSpace(e.ExecutionId)&&!string.IsNullOrWhiteSpace(e.IdempotencyKey)&&!string.IsNullOrWhiteSpace(e.RequestFingerprint)&&!string.IsNullOrWhiteSpace(e.BrokerOrderId)&&!string.IsNullOrWhiteSpace(e.SessionId)&&!string.IsNullOrWhiteSpace(e.AuthorityFingerprint)&&!string.IsNullOrWhiteSpace(e.AuditHead); }

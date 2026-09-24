@@ -1,0 +1,21 @@
+QuantForge v21.25 Validation Result
+
+PASS — source tree extracted from v21.15 baseline.
+PASS — structural C# brace validation across source tree.
+PASS — encrypted settings store uses AES-GCM and does not persist its key.
+PASS — default persisted live pathway is disabled.
+PASS — default persisted live communications are research-only/denied.
+PASS — authentication adapter boundary provides two distinct factor kinds.
+PASS — broker capability discovery is required by final order admission.
+PASS — stale/unhealthy risk health blocks final order admission.
+PASS — unresolved recovery state blocks final order admission.
+PASS — strategy/risk binding mismatches block final order admission.
+PASS — explicit order-routing and broker communication are required.
+PASS — bot must explicitly enable SendOrders.
+PASS — EmergencyFlatten remains mandatory.
+PASS — dedicated Live Trading Security Control Plane UI added.
+NOT CLAIMED — native .NET compilation; dotnet SDK unavailable in validation environment.
+NOT CLAIMED — Android platform authentication verification.
+NOT CLAIMED — SQLite execution.
+NOT CLAIMED — broker connectivity or real live-order submission.
+NOT CLAIMED — production secure hardware/key-store integration.

@@ -1,0 +1,34 @@
+{
+  "product": "QuantForge Futures Research Platform",
+  "release": "20.17",
+  "baseline": "20.16",
+  "focus": [
+    "canonical risk semantics",
+    "persistent risk settings",
+    "MES/MNQ profiles",
+    "execution sensitivity",
+    "grouped UI"
+  ],
+  "nativeCompilationValidated": false,
+  "liveTradingEnabled": false,
+  "sourceExecutionEnabled": false,
+  "defaultRiskProfile": {
+    "accountSize": 3000,
+    "primaryInstrument": "MES",
+    "plannedInstrument": "MNQ",
+    "maxContracts": 1,
+    "initialStopPoints": 6,
+    "trailingActivationPoints": 4,
+    "trailingDistancePoints": 2,
+    "dailyLossLimit": 60,
+    "commissionPerSide": 0.95,
+    "slippageTicksPerSide": 1
+  },
+  "docs": [
+    "User_Manual_v20.17.md",
+    "New_Chat_Handoff_v20.17.md",
+    "Comprehensive_Build_Summary_v20.17.md",
+    "Validation_Result_v20.17.txt",
+    "Source_Hashes_v20.17.json"
+  ]
+}

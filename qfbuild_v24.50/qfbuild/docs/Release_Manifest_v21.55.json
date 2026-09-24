@@ -1,0 +1,16 @@
+{
+  "version": "21.55",
+  "title": "Consolidated Execution Idempotency, Reconciliation, and Broker Boundary",
+  "base": "v21.45",
+  "generated_at": "2026-09-24T04:24:36.144364+00:00",
+  "broker_execution_implemented": false,
+  "live_authority_default": "disabled",
+  "required_documents": [
+    "Comprehensive_Build_Summary_v21.55.md",
+    "User_Manual_v21.55.md",
+    "New_Chat_Handoff_v21.55.md",
+    "Validation_Result_v21.55.txt",
+    "Release_Manifest_v21.55.json",
+    "Source_Hashes_v21.55.txt"
+  ]
+}

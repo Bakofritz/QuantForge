@@ -1,0 +1,19 @@
+{
+  "version": "20.45",
+  "name": "Transactional Terminal Fault-Execution Harness",
+  "sourceCSharpFiles": 92,
+  "totalCSharpFiles": 113,
+  "nativeRuntimeExecuted": false,
+  "nativeSqliteFaultHarnessExecuted": false,
+  "parallelResearchEnabled": false,
+  "liveTradingEnabled": false,
+  "visualRefinementDeferred": true,
+  "transactionalTerminalFaultPoints": [
+    "JobStateWrite",
+    "ReceiptWrite",
+    "EvidenceWrite",
+    "EventWrite",
+    "BeforeCommit"
+  ],
+  "next": "20.46"
+}

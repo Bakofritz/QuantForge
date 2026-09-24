@@ -1,0 +1,8 @@
+{
+  "version": "20.30",
+  "title": "Durable Resource Receipts + Batch Accounting + Worker Identity",
+  "liveTradingEnabled": false,
+  "parallelExecutionEnabled": false,
+  "nativeRuntimeValidated": false,
+  "deferredContributions": ["NT8 REPLAY","NT8 TICK","NT8 MINUTE","NT8 DAILY","MES DATA","MNQ DATA","ROLL DATA","STRATEGY SRC","STRATEGY TEST","REPLAY MATCH","LATENCY DATA","NT8 CONFIG"]
+}

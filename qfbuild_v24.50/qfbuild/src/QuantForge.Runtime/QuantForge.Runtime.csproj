@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuantForge.Core\QuantForge.Core.csproj" />
+    <ProjectReference Include="..\QuantForge.Data\QuantForge.Data.csproj" />
+    <ProjectReference Include="..\QuantForge.Backtesting\QuantForge.Backtesting.csproj" />
+    <ProjectReference Include="..\QuantForge.Storage\QuantForge.Storage.csproj" />
+  </ItemGroup>
+</Project>

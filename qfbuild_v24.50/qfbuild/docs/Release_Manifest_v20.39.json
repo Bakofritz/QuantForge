@@ -1,0 +1,14 @@
+{
+  "release": "20.39",
+  "name": "Native SQLite Contention Adapter Boundary + Validation Result Ingestion",
+  "parallelExecutionEnabled": false,
+  "liveTradingEnabled": false,
+  "nativeRuntimeValidated": false,
+  "csharpFileCount": 96,
+  "validation": {
+    "structuralBalance": "PASS",
+    "architectureChecks": "PASS",
+    "nativeCompilation": "NOT_AVAILABLE"
+  },
+  "nextBuild": "20.40"
+}

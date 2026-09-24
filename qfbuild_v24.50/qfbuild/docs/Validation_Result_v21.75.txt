@@ -1,0 +1,13 @@
+QuantForge v21.75 Validation Result
+
+PASS: v21.65 source package was successfully unpacked and extended.
+PASS: broker transport defaults to Disconnected.
+PASS: broker lifecycle supports Connecting -> Connected -> Degraded -> Disconnected transitions.
+PASS: unconfigured broker transport fails closed.
+PASS: transport layer contains no authorization policy.
+PASS: startup recovery identifies Unknown execution intents as blocking.
+PASS: Android secure-key adapter defaults unavailable.
+PASS: Windows protected-key adapter defaults unavailable.
+PASS: ambiguous broker outcomes remain reconciliation-only; no automatic retry added.
+PASS: live pathway remains architecturally opt-in.
+NOT CLAIMED: native .NET compilation; Android Keystore API execution; Windows secure storage API execution; real broker protocol integration; production credentials; live broker order execution.

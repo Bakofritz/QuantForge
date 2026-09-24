@@ -1,0 +1,12 @@
+{
+  "release": "20.50",
+  "name": "Recovery Preflight Binding Reconciliation",
+  "sourceCSharpFiles": 101,
+  "totalCSharpFiles": 127,
+  "nativeDotnetExecuted": false,
+  "nativeSqliteExecuted": false,
+  "parallelResearchEnabled": false,
+  "liveTradingAuthority": false,
+  "visualRefinement": "deferred",
+  "nextBuild": "20.51 Recovery Binding Fault-Injection and Reconciliation Harness"
+}

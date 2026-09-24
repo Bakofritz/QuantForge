@@ -1,0 +1,15 @@
+QuantForge v20.44 Validation Result
+
+CS files: 109
+Structural brace balance: PASS
+Transactional terminal commit contract: PRESENT
+SQLite transaction boundary: PRESENT
+Lease predicate inside terminal state transaction: PRESENT
+Failure/cancellation terminal job binding: PRESENT
+Architecture check source: PASS
+Native dotnet execution: NOT AVAILABLE
+Native SQLite runtime test: NOT EXECUTED
+Android runtime test: NOT EXECUTED
+Windows runtime test: NOT EXECUTED
+Live trading authority: NONE
+Parallel research: DISABLED

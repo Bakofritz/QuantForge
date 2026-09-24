@@ -1,0 +1,13 @@
+QuantForge v20.19 source validation
+C# files: 53
+C# lexical structural balance: PASS
+Account ledger contract: PASS
+Intrabar ambiguity policy: PASS
+Daily loss lock: PASS
+Equity/drawdown tracking: PASS
+Commission/slippage ledger: PASS
+Signed position ledger: PASS
+Long/short intrabar resolver: PASS
+No live-order authority: PASS
+Native compilation: NOT AVAILABLE
+Android/Windows device validation: NOT AVAILABLE

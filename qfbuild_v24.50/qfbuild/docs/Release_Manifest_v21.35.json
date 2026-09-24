@@ -1,0 +1,20 @@
+{
+  "product": "QuantForge Futures",
+  "version": "21.35",
+  "build_type": "Consolidated Master Build",
+  "focus": [
+    "platform authentication contracts",
+    "tamper-evident audit chain",
+    "broker capability handshake",
+    "risk heartbeat safety",
+    "final live-order admission",
+    "order preview"
+  ],
+  "live_order_submission_implemented": false,
+  "default_live_authority": "blocked",
+  "native_compilation_verified": false,
+  "source_file_count": 650,
+  "validation": "docs/Validation_Result_v21.35.txt",
+  "user_manual": "docs/User_Manual_v21.35.md",
+  "handoff": "docs/New_Chat_Handoff_v21.35.md"
+}

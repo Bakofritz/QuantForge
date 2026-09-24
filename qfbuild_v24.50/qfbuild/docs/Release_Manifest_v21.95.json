@@ -1,0 +1,22 @@
+{
+  "product": "QuantForge",
+  "version": "21.95",
+  "milestone": "Consolidated Native Platform Adapter Boundaries, Deterministic Broker Order Normalization, and Recovery Orchestration",
+  "liveTradingDefault": "OFF",
+  "realBrokerExecutionImplemented": false,
+  "nativePlatformRuntimeImplemented": false,
+  "requiredDocumentation": [
+    "Comprehensive_Build_Summary_v21.95.md",
+    "User_Manual_v21.95.md",
+    "New_Chat_Handoff_v21.95.md",
+    "Validation_Result_v21.95.txt",
+    "Release_Manifest_v21.95.json",
+    "Source_Hashes_v21.95.txt"
+  ],
+  "newComponents": [
+    "LiveNativePlatformAdaptersV21_95.cs",
+    "LiveBrokerOrderNormalizationV21_95.cs",
+    "LiveBrokerRecoveryCoordinatorV21_95.cs",
+    "PlatformIntegrationV21_95ArchitectureChecks.cs"
+  ]
+}

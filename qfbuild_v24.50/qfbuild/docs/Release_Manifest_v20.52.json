@@ -1,0 +1,16 @@
+{
+  "release": "20.52",
+  "name": "Recovery Binding Reconciliation + Durable Audit Evidence",
+  "nativeCompilation": false,
+  "nativeRuntimeExecution": false,
+  "parallelResearchEnabled": false,
+  "liveTradingEnabled": false,
+  "visualRefinementDeferred": true,
+  "newComponents": [
+    "RecoveryBindingReconciliationService",
+    "RecoveryBindingReconciliationState",
+    "ResearchRuntime.ReconcileRecoveryBindingAsync",
+    "RecoveryBindingReconciliationArchitectureChecks"
+  ],
+  "nextRelease": "20.53"
+}

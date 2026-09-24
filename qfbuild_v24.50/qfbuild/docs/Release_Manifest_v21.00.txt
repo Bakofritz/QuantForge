@@ -1,0 +1,20 @@
+QuantForge v21.00 Release Manifest
+
+Release: v21.00
+Title: Consolidated Governed Research Execution Integration
+Consolidated scope: v20.91-v21.00
+Source C# files: 131
+Native runtime qualified: No claim in this environment
+Live trading/order authority: Disabled
+Arbitrary imported-code execution: Disabled
+
+Primary new source:
+src/QuantForge.Runtime/ResearchBatchIntegrationV21.cs
+
+Required documentation included:
+- Comprehensive_Build_Summary_v21.00.txt
+- User_Manual_v21.00.md
+- New_Chat_Handoff_v21.00.txt
+- Validation_Result_v21.00.txt
+- Release_Manifest_v21.00.txt
+- Source_Hashes_v21.00.txt

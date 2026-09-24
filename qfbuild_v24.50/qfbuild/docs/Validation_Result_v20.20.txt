@@ -1,0 +1,12 @@
+QuantForge v20.20 source validation
+Native source contracts: PASS
+NT8 inventory fingerprinting: PASS
+Native extractor boundary: PASS
+NT8 export tick importer: PASS
+NT8 export minute/day importer: PASS
+Tick-to-minute aggregation: PASS
+Cross-validation metrics: PASS
+Validation sample-plan generation: PASS
+No native format assumption for unknown files: PASS
+No source-directory write operation: PASS
+No live trading authority: PASS

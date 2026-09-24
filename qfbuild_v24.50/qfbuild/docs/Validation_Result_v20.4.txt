@@ -1,0 +1,13 @@
+QuantForge v20.4 Validation Result
+
+PASS: DurableJobState contains Queued, Running, Paused, Completed, Failed, Canceled, RecoveryRequired.
+PASS: ResearchCheckpoint contains dataset/configuration/engine fingerprints and cursor.
+PASS: Persisted cancellation contract exists.
+PASS: SQLite schema includes research_jobs, research_checkpoints, job_cancellations.
+PASS: Event-driven MarketEvent -> Strategy -> SimulationOrder -> ExecutionFill boundary exists.
+PASS: Causal chronological processing guard exists.
+PASS: Research authority boundary blocks prohibited live/mutation authorities.
+PASS: v20.4 documentation artifacts exist.
+
+NOT CERTIFIED: native .NET compilation; Android package; Windows package; native SQLite runtime; device runtime.
+Reason: required .NET/Android/Windows SDK toolchain is unavailable in this environment.

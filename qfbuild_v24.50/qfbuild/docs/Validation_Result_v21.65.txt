@@ -1,0 +1,14 @@
+QuantForge v21.65 Validation Result
+
+PASS — package/source structural validation
+PASS — native authentication bridge fails closed when unavailable
+PASS — secure-key-store fallback fails closed when unavailable
+PASS — canonical broker request fingerprint is deterministic
+PASS — SQLite execution intent survives store reopen
+PASS — SQLite unique idempotency key prevents duplicate intent rows
+PASS — recovery gate blocks known Unknown execution intents
+PASS — existing v21.55 confirmation/admission/idempotency/reconciliation architecture retained
+PASS — no production broker implementation added
+PASS — live trading remains disabled by default
+
+Environment limitation: the validation environment does not provide the .NET SDK/native Android/Windows toolchains required for native compilation and platform integration testing. Therefore native compilation, platform authenticator behavior, real broker protocol behavior, and production order submission are not claimed as validated.

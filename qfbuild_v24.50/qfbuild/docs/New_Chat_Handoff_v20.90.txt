@@ -1,0 +1,21 @@
+QUANTFORGE MASTER BUILD HANDOFF — v20.90
+
+Current milestone
+v20.90 Consolidated Governed Backtest Case Factory & Deterministic Research Batch Execution.
+
+Completed through v20.90
+- Recovery/reconciliation foundation through v20.65.
+- Native qualification/resource admission foundation through v20.70.
+- Controlled concurrency lifecycle through v20.75.
+- Controlled execution boundary through v20.80.
+- Governed research execution adapter through v20.85.
+- Governed backtest case factory and deterministic batch execution through v20.90.
+
+Next recommended consolidation
+Integrate governed backtest batches with durable terminal receipts, cancellation propagation, recovery-aware restart, and multi-script read-only optimization orchestration. Preserve the current rule that optimization/research authority cannot grant live trading or arbitrary-code execution authority.
+
+Important environment limitation
+.NET SDK is unavailable in the current build environment. Native .NET, SQLite, and Android/device execution are therefore not claimed. Structural and architecture validation are claimed only where explicitly recorded.
+
+Documentation rule
+Every Master Build package must continue to include a detailed User Manual, Comprehensive Build Summary, Validation Result, New-Chat Handoff, Release Manifest, Build Count, and Source Hashes.

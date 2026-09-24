@@ -1,0 +1,10 @@
+{
+  "version": "20.35",
+  "title": "Recovery / Batch Manifest Integrity + Terminal-State Agreement",
+  "nativeCompileValidated": false,
+  "parallelExecutionEnabled": false,
+  "liveTradingEnabled": false,
+  "filesCSharp": 86,
+  "validation": "CS_STRUCTURAL_BALANCE_PASS",
+  "nextBuild": "20.36"
+}

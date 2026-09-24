@@ -1,0 +1,12 @@
+{
+  "product": "QuantForge Futures Research Platform",
+  "release": "20.55",
+  "baseline": "20.54",
+  "phase": "Native Recovery Continuation Gate Integrity",
+  "native_execution_claimed": false,
+  "parallel_research_enabled": false,
+  "live_trading_enabled": false,
+  "structural_csharp_file_count": 139,
+  "visual_refinement": "frozen",
+  "next_build": "20.56 Recovery Gate Fault-Injection Continuation Harness"
+}

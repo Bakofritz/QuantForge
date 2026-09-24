@@ -1,0 +1,10 @@
+QuantForge v20.26 validation
+
+PASS: C# structural balance across source tree
+PASS: deterministic research context fingerprinting
+PASS: distinct context state non-leakage architecture checks (source-level)
+PASS: duplicate context identity rejection architecture check
+PASS: research-only authority boundary
+NOT RUN: native dotnet build — .NET SDK/compiler unavailable
+NOT RUN: Android runtime/device validation — Android SDK/device unavailable
+NOT RUN: Windows native runtime validation — Windows SDK/runtime unavailable

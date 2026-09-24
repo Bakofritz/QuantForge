@@ -1,0 +1,10 @@
+{
+  "version": "21.10",
+  "name": "Consolidated Strategy Lifecycle Governance",
+  "base": "21.05",
+  "researchOnly": true,
+  "liveOrderAuthority": false,
+  "arbitraryImportedCodeExecution": false,
+  "nativeRuntimeQualified": false,
+  "includedMilestones": ["21.06","21.07","21.08","21.09","21.10"]
+}

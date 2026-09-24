@@ -1,0 +1,24 @@
+{
+  "product": "QuantForge Futures Research Platform",
+  "version": "20.57",
+  "release": "Recovery Continuation Crash-Window and Post-Authorization Invalidation Harness",
+  "parent_release": "20.56",
+  "validation_status": "PASS_STRUCTURAL",
+  "native_runtime_validated": false,
+  "native_sqlite_validated": false,
+  "parallel_research_enabled": false,
+  "live_trading_enabled": false,
+  "artifacts": [
+    "src/QuantForge.Runtime/RecoveryContinuationInvalidationGuard.cs",
+    "src/QuantForge.Runtime/RecoveryContinuationInvalidationHarness.cs",
+    "src/QuantForge.Runtime/CheckpointBoundContinuationService.cs",
+    "tests/QuantForge.ArchitectureTests/RecoveryContinuationInvalidationArchitectureChecks.cs",
+    "docs/Comprehensive_Build_Summary_v20.57.md",
+    "docs/User_Manual_v20.57.md",
+    "docs/New_Chat_Handoff_v20.57.md",
+    "docs/Validation_Result_v20.57.txt",
+    "docs/Release_Manifest_v20.57.json",
+    "docs/Source_Hashes_v20.57.txt"
+  ],
+  "next_build": "20.58 Continuation Commit Idempotency and Crash-Replay Boundary Harness"
+}

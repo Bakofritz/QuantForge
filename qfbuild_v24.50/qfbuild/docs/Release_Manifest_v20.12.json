@@ -1,0 +1,9 @@
+{
+  "release": "20.12",
+  "baseline": "20.11",
+  "title": "Persistent Strategy Governance & Canonical Model Lineage",
+  "nativeCompilationValidated": false,
+  "liveTradingEnabled": false,
+  "sourceExecutionEnabled": false,
+  "filesValidated": 40
+}

@@ -1,0 +1,3 @@
+namespace QuantForge.Governance;
+public sealed record LiveSessionLeaseV22_60(string SessionId, DateTimeOffset IssuedAtUtc, DateTimeOffset ExpiresAtUtc, string AuthorityFingerprint);
+public static class LiveSessionLeaseGateV22_60 { public static bool IsValid(LiveSessionLeaseV22_60 lease, DateTimeOffset nowUtc, string authorityFingerprint) => !string.IsNullOrWhiteSpace(lease.SessionId)&&!string.IsNullOrWhiteSpace(lease.AuthorityFingerprint)&&lease.AuthorityFingerprint==authorityFingerprint&&lease.ExpiresAtUtc>lease.IssuedAtUtc&&nowUtc>=lease.IssuedAtUtc&&nowUtc<=lease.ExpiresAtUtc; public static bool CanRenew(LiveSessionLeaseV22_60 lease, DateTimeOffset nowUtc, string authorityFingerprint)=>IsValid(lease,nowUtc,authorityFingerprint); }

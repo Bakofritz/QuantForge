@@ -1,0 +1,1 @@
+6afc75f88971ffe71278d95c8cfe9ef0d2c4dc105196882a9bf5f6ee3f9e0842  /tmp/qf/src/QuantForge.Runtime/GovernedResearchExecutionAdapter.cs

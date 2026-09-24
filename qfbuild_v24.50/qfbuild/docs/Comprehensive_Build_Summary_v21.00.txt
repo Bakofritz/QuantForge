@@ -1,0 +1,18 @@
+QuantForge Master Build v21.00 — Consolidated Research Execution Integration
+
+Scope: Consolidates the planned v20.91-v21.00 research execution integration block into one governed milestone.
+
+Implemented:
+- Immutable ResearchBatchManifest is now the binding identity for the consolidated optimization job boundary.
+- GovernedOptimizationJobService requires read-only research authority, native runtime qualification, resource admission, canonical dataset fingerprint matching, and dataset/instrument/timeframe agreement.
+- DeterministicOptimizer is reused rather than creating a second optimization engine.
+- Optimization result fingerprints bind ContextId/strategy fingerprint/configuration/result to the batch manifest.
+- CancellationToken is propagated through dataset loading and the optimization boundary.
+- Deterministic case ordering is enforced by ContextId and CaseId.
+- Existing MultiCaseExecutionCoordinator terminal receipts, checkpoint/recovery integration, lease enforcement, and deterministic backtest batch path remain the authoritative execution infrastructure.
+- No live trading, live order, arbitrary code execution, canonical data mutation, or undeclared application mutation authority is added.
+
+Architecture:
+Recovery/Reconciliation -> Runtime Qualification -> Resource Admission -> Controlled Lifecycle -> Lease Ownership -> Governed Research Execution -> Batch Manifest -> Canonical Backtest/Optimization -> Terminal Receipt/Checkpoint.
+
+This build intentionally does not claim native .NET, SQLite, or Android/device execution because those runtimes are unavailable in the current build environment.

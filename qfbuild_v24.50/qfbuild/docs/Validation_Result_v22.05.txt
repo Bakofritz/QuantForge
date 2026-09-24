@@ -1,0 +1,9 @@
+QuantForge v22.05 Validation Result
+
+PASS: Native platform security default is unavailable/fail-closed.
+PASS: Broker connector default is disconnected.
+PASS: Startup readiness blocks when audit integrity fails.
+PASS: Existing unknown-execution reconciliation boundary retained.
+PASS: Existing broker transport and authority separation retained.
+
+NOT CLAIMED: Native .NET compilation, Android Keystore runtime execution, Windows secure-key runtime execution, production passkey runtime, real broker connectivity, or real-money order submission.

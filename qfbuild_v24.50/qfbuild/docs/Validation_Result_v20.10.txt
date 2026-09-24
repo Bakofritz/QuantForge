@@ -1,0 +1,11 @@
+QuantForge v20.10 source validation
+C# files: 33
+all C# files balanced: PASS
+optimization resumable runtime: PASS
+robustness resumable runtime: PASS
+walk-forward resumable runtime: PASS
+persistent aggregation: PASS
+lease renewal per chunk: PASS
+cancellation per chunk: PASS
+duplicate evidence guard: PASS
+no live order authority: PASS

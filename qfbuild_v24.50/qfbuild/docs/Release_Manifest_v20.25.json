@@ -1,0 +1,15 @@
+{
+  "product": "QuantForge Futures Research Platform",
+  "release": "20.25",
+  "title": "Account-Ledger Session Integrity + Trade Evidence Hardening",
+  "baseline": "20.24",
+  "architecture": "C#/.NET 10 LTS + .NET MAUI",
+  "targets": ["Windows", "Android"],
+  "researchOnly": true,
+  "liveTradingEnabled": false,
+  "visualRefinement": "deferred",
+  "nativeCompilationValidated": false,
+  "deferredContributions": ["NT8 REPLAY", "NT8 TICK", "NT8 MINUTE", "NT8 DAILY", "REPLAY MATCH", "LATENCY DATA"],
+  "nextRelease": "20.26",
+  "nextFocus": "Multi-Script / Multi-Instrument Research Isolation"
+}

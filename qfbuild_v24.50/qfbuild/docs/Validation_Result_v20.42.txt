@@ -1,0 +1,31 @@
+QuantForge v20.42 Validation Result
+==================================
+
+Release: 20.42
+Name: Durable Native Fault-Result Reconciliation + Failure-Recovery Invariants
+
+CS structural balance: PASS
+C# source files including tests: 105
+
+Recovery invariant coverage:
+- LeaseAcquire: IMPLEMENTED
+- LeaseRenew: IMPLEMENTED
+- CheckpointWrite: IMPLEMENTED
+- ReceiptWrite: IMPLEMENTED
+- EvidenceWrite: IMPLEMENTED
+- ValidationResultWrite: IMPLEMENTED
+- JobStateWrite: IMPLEMENTED
+
+Controlled retry path: PASS (source/architecture validation)
+Durable-state verification path: PASS (source/architecture validation)
+Runtime recovery-validation entry point: PASS
+Fail-closed contract: PASS
+
+Source correction: SaveDatasetAsync lease-fault reference removed; lease fault injection remains in MutateLeaseAsync.
+
+Native .NET execution: NOT AVAILABLE
+Actual native SQLite fault/retry probes: NOT EXECUTED / NOT CLAIMED
+Parallel execution: DISABLED
+Live trading authority: NOT ADDED
+
+Result classification: SOURCE/ARCHITECTURE VALIDATION ONLY

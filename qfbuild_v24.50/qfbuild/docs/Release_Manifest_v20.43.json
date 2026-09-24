@@ -1,0 +1,10 @@
+{
+  "version": "20.43",
+  "title": "Recovery-State Failure Integrity",
+  "nativeRuntimeValidated": false,
+  "parallelResearchEnabled": false,
+  "liveTradingEnabled": false,
+  "visualRefinementDeferred": true,
+  "nextBuild": "20.44",
+  "nextBuildFocus": "Transactional Terminal Commit Boundary / Recovery Integrity Harness"
+}

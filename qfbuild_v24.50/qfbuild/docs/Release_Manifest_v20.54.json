@@ -1,0 +1,11 @@
+{
+  "product": "QuantForge Futures Research Platform",
+  "version": "20.54",
+  "title": "Native Recovery Reconciliation Fault Adapter",
+  "native_runtime_executed": false,
+  "structural_validation": "PASS",
+  "visual_refinement": "DEFERRED",
+  "live_trading": false,
+  "parallel_research_execution": false,
+  "next_build": "20.55"
+}

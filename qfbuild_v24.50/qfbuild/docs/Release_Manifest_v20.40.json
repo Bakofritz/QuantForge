@@ -1,0 +1,17 @@
+{
+  "release": "20.40",
+  "name": "Native Validation Result Reconciliation + Storage Fault-Injection Boundary",
+  "parallelExecutionEnabled": false,
+  "liveTradingAuthority": false,
+  "nativeValidationExecuted": false,
+  "sourceCSharpFiles": 84,
+  "totalCSharpFilesIncludingTests": 100,
+  "artifacts": [
+    "Comprehensive_Build_Summary_v20.40.md",
+    "New_Chat_Handoff_v20.40.md",
+    "User_Manual_v20.40.md",
+    "Validation_Result_v20.40.txt",
+    "Release_Manifest_v20.40.json",
+    "Source_Hashes_v20.40.txt"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "version": "20.47",
+  "title": "Worker Recovery Integrity",
+  "nativeRuntimeValidated": false,
+  "parallelResearchEnabled": false,
+  "liveTradingEnabled": false,
+  "visualRefinementDeferred": true,
+  "nextBuild": "20.48"
+}

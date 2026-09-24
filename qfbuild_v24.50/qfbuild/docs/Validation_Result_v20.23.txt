@@ -1,0 +1,11 @@
+QuantForge v20.23 source validation
+C# files checked: 64
+Structural brace balance: PASS
+Canonical position intent: PASS
+Legacy observation adapter: PASS
+Side-aware fill polarity: PASS
+Side-aware intrabar resolver: PASS
+Native .NET/MAUI compilation: NOT RUN (SDK unavailable)
+Android runtime validation: NOT RUN (SDK/device unavailable)
+Windows runtime validation: NOT RUN (SDK/runtime unavailable)
+Live trading authority introduced: NO

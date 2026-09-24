@@ -1,0 +1,15 @@
+QuantForge v20.17 source validation
+C# files: 50
+Structured stop/trailing/position semantics: PASS
+MES/MNQ profiles: PASS
+Persistent risk settings schema: PASS
+Risk settings fingerprint verification: PASS
+Sensitivity matrix: PASS
+Ethernet/Wi-Fi/mobile scenarios: PASS
+Risk fingerprint binding: PASS
+One-contract default: PASS
+MES primary: PASS
+No live authority: PASS
+Grouped UI: PASS
+C# structural balance: PASS
+Native .NET/MAUI/device compilation: NOT RUN — required SDK/toolchain unavailable in build environment

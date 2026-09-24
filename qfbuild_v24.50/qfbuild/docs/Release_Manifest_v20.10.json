@@ -1,0 +1,15 @@
+{
+  "product": "QuantForge Futures Research Platform",
+  "version": "20.10",
+  "baseline": "20.9",
+  "focus": "Durable optimization, robustness, and walk-forward execution",
+  "visualWork": "frozen",
+  "pdfAnalysis": "deferred",
+  "liveTradingAuthority": false,
+  "canonicalDataMutation": false,
+  "sourceExecutionDuringAudit": false,
+  "validation": "source-level only; native toolchain unavailable",
+  "csharpFileCount": 33,
+  "nextBuild": "20.11",
+  "nextFocus": "Canonical Strategy/Indicator Model + native first-line Script Scrubber/Quarantine"
+}

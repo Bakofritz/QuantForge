@@ -1,0 +1,17 @@
+{
+  "version": "22.35",
+  "release_type": "consolidated live-environment capability provenance and authority revalidation architecture build",
+  "previous_release": "22.30",
+  "additions": [
+    "live capability provenance identity set",
+    "deterministic capability provenance fingerprint",
+    "mandatory live authority revalidation gate",
+    "adversarial continuation checks",
+    "permanent simple live-environment summary rule"
+  ],
+  "live_order_submission": false,
+  "unknown_order_auto_retry": false,
+  "reconnect_rearms_live_pathway": false,
+  "native_platform_execution_validated": false,
+  "required_live_environment_summary": true
+}

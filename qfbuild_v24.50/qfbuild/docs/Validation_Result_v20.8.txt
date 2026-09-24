@@ -1,0 +1,11 @@
+QuantForge v20.8 source validation
+C# files: 32
+Monte Carlo contracts: PASS
+Deterministic seed: PASS
+Bootstrap replacement: PASS
+Percentile statistics: PASS
+Observed trade path: PASS
+Canonical gate before Monte Carlo: PASS
+Durable checkpoint attachment: PASS
+Evidence linkage: PASS
+No live trading authority: PASS

@@ -1,0 +1,31 @@
+{
+  "release": "20.16",
+  "focus": [
+    "risk/execution defaults",
+    "slippage",
+    "latency scenarios",
+    "grouped native UI"
+  ],
+  "accountSize": 3000,
+  "primaryInstrument": "MES",
+  "plannedInstruments": [
+    "MNQ"
+  ],
+  "maxContracts": 1,
+  "commissionPerSide": 0.95,
+  "commissionAssumption": "user-specified simulation assumption",
+  "slippageTicksPerSide": 1,
+  "stopPoints": 6,
+  "trailingActivationPoints": 4,
+  "trailingDistancePoints": 2,
+  "dailyLossLimit": 60,
+  "latencyEstimatesMs": {
+    "WindowsEthernet": 35,
+    "WindowsWifi": 80,
+    "AndroidWifi": 80,
+    "AndroidMobileData": 180
+  },
+  "liveTradingEnabled": false,
+  "sourceExecutionEnabled": false,
+  "nativeCompilationValidated": false
+}

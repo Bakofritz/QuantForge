@@ -1,0 +1,13 @@
+{
+  "release": "v23.85",
+  "title": "Cross Strategy Portfolio Simulation",
+  "cumulative_base": "v23.70",
+  "csharp_source_files_under_src": 204,
+  "total_csharp_files_in_package": 278,
+  "live_brokerage_enabled": false,
+  "live_order_submission_enabled": false,
+  "simulation_enabled": true,
+  "market_data_read_only": true,
+  "nt8_future_prerequisite_only": true,
+  "validation": {"zip_integrity": "PASS", "csharp_brace_check": "PASS", "native_dotnet_compile": "NOT_CLAIMED"}
+}

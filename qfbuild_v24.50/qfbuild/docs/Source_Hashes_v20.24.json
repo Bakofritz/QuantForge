@@ -1,0 +1,335 @@
+{
+  "release": "20.24",
+  "files": [
+    {
+      "path": "src/QuantForge.AI/AiContracts.cs",
+      "sha256": "ee72bc949dff0db6c078ae82d43c63f3730b69197e97ecc522f0d322f7b2d483",
+      "bytes": 393
+    },
+    {
+      "path": "src/QuantForge.App/App.xaml.cs",
+      "sha256": "5f91e19a5409491723746b2e0fa2bc33b9847a766976091cf852fd43119f302c",
+      "bytes": 141
+    },
+    {
+      "path": "src/QuantForge.App/AppShell.xaml.cs",
+      "sha256": "a99d3560ae0eb620ebe34f3e7899126f7fd57283379d1ccc38b61e59ebc12e2a",
+      "bytes": 117
+    },
+    {
+      "path": "src/QuantForge.App/MainPage.xaml.cs",
+      "sha256": "4b44c77d0ae337703ed15e17ff8dfa931224257397e5ebbbbd950df13390cb78",
+      "bytes": 123
+    },
+    {
+      "path": "src/QuantForge.Backtesting/AccountLedger.cs",
+      "sha256": "7302c0d61783ac07d22742657ea3293ad9880ea58aa7b5b587f2107043316851",
+      "bytes": 7367
+    },
+    {
+      "path": "src/QuantForge.Backtesting/BacktestContracts.cs",
+      "sha256": "bc0527a67a5fc7ae2c0e496df4c754c2e9b101c79cf9ac7765912579d0817b90",
+      "bytes": 461
+    },
+    {
+      "path": "src/QuantForge.Backtesting/CanonicalPositionLifecycle.cs",
+      "sha256": "040825d99c48df77a5683c1e612723150d4d87161a5a9a89616e8ed74e7ff083",
+      "bytes": 10047
+    },
+    {
+      "path": "src/QuantForge.Backtesting/CanonicalRiskExecutionAdapter.cs",
+      "sha256": "3298bdb9d35553dc2204c2dd579c3fcb70a5c4d54788d0c012e7ebffde4dcc69",
+      "bytes": 680
+    },
+    {
+      "path": "src/QuantForge.Backtesting/CanonicalStrategyAdapter.cs",
+      "sha256": "62b003feb082182797420f290d40d0b0ce8837ce51e9903a5c50f565eb99cf94",
+      "bytes": 17006
+    },
+    {
+      "path": "src/QuantForge.Backtesting/CanonicalStrategySemanticsAdapter.cs",
+      "sha256": "c46b10156ed2d30faf35c96b1b33e54a81006a33d78aa4f8f22a358a8d5ebba4",
+      "bytes": 5776
+    },
+    {
+      "path": "src/QuantForge.Backtesting/CausalBarStrategyAdapter.cs",
+      "sha256": "71d0bc6a1a839d27fda6c3abfadd0079e21516a7941517382d5b38fbba37d434",
+      "bytes": 1290
+    },
+    {
+      "path": "src/QuantForge.Backtesting/DeterministicBacktestEngine.cs",
+      "sha256": "7f706002bdea17a355e36e338d29415ce5c8748049ac77cd71d58d55b7ebffbb",
+      "bytes": 4556
+    },
+    {
+      "path": "src/QuantForge.Backtesting/DeterministicMonteCarloAnalyzer.cs",
+      "sha256": "a98778e886d695b6d863401329ae55e81c1b62e2dad900aa999373980b8498ad",
+      "bytes": 6320
+    },
+    {
+      "path": "src/QuantForge.Backtesting/DeterministicOptimizer.cs",
+      "sha256": "093c98497e708c25e041eb42fb03425ffb788c54fd07b345128b94c2d8d7d735",
+      "bytes": 3645
+    },
+    {
+      "path": "src/QuantForge.Backtesting/DeterministicRobustnessAnalyzer.cs",
+      "sha256": "0eb95dc2075f778a47d32f31f586458a37a264087c90702f6df3963293368393",
+      "bytes": 2804
+    },
+    {
+      "path": "src/QuantForge.Backtesting/EventDrivenBacktestEngine.cs",
+      "sha256": "f003238e0af3994a4b1e45ce1597a80ca0a7f4d1fe008e77be957a49f5b31a0d",
+      "bytes": 2574
+    },
+    {
+      "path": "src/QuantForge.Backtesting/ExecutionSensitivity.cs",
+      "sha256": "7140a327bc76e524c14323076b33fdc025dbf1bbc3a37e56228bfe83d78ac68d",
+      "bytes": 2767
+    },
+    {
+      "path": "src/QuantForge.Backtesting/ExecutionTelemetry.cs",
+      "sha256": "f7026cf3fa14034d49285b669b268ec013060541720a4cbee4a398c8d77ac15e",
+      "bytes": 1732
+    },
+    {
+      "path": "src/QuantForge.Backtesting/LedgerBoundBacktest.cs",
+      "sha256": "c68198eb7a36b5e25f815120a87e496efc799217a93c677bb63244973f383e29",
+      "bytes": 6602
+    },
+    {
+      "path": "src/QuantForge.Backtesting/MonteCarloContracts.cs",
+      "sha256": "1e71e6056fe453db47fb79d3e85a7fe81af4f781a9bd7d0d56460876226610c1",
+      "bytes": 678
+    },
+    {
+      "path": "src/QuantForge.Backtesting/OptimizationContracts.cs",
+      "sha256": "da9f256bc3e5e0b0d059a929e22e142dd07500fafa316e2bc333c97fa92c45e9",
+      "bytes": 983
+    },
+    {
+      "path": "src/QuantForge.Backtesting/RiskBudgetValidator.cs",
+      "sha256": "379235f051d68937056ee0e46b9813c656eb9d1d2a867191f8aecb4344a7509b",
+      "bytes": 1393
+    },
+    {
+      "path": "src/QuantForge.Backtesting/RiskManagedExecutionModel.cs",
+      "sha256": "2a3fade4347cead94a538146bcdfa09be1fe1f012802ac636cd75ec05ec5b7d2",
+      "bytes": 4579
+    },
+    {
+      "path": "src/QuantForge.Backtesting/RiskManagementRules.cs",
+      "sha256": "c0998ba1040d1670417af3a8788418aa8a595842992300e098b726c5ef6d9c63",
+      "bytes": 1351
+    },
+    {
+      "path": "src/QuantForge.Backtesting/RobustnessContracts.cs",
+      "sha256": "9ad40c0cc6ba6f8609dff55ffc3fa3c59ffe5ac1601c2f0522146f3fb170fba5",
+      "bytes": 483
+    },
+    {
+      "path": "src/QuantForge.Backtesting/SideAwareExecution.cs",
+      "sha256": "55e2fea2e8cd3405456a9b402226ad3f3d7ff3d461423b923b47c319a4de49a8",
+      "bytes": 3585
+    },
+    {
+      "path": "src/QuantForge.Backtesting/WalkForwardAnalyzer.cs",
+      "sha256": "43443b46cfa4ddb9bf05c8905d6164085c134e1548203020e161e22e6d67828c",
+      "bytes": 3223
+    },
+    {
+      "path": "src/QuantForge.Bots/BotContracts.cs",
+      "sha256": "8e02074b467e466428f60abeacd20e63e34495b6ab3d41c345309fd9abfd1e0b",
+      "bytes": 307
+    },
+    {
+      "path": "src/QuantForge.Core/AuthorityBoundary.cs",
+      "sha256": "3045f3137b718d5d5bf5c779effc8a82f3fb8ec9cf73ed2863538ec674d70f67",
+      "bytes": 387
+    },
+    {
+      "path": "src/QuantForge.Core/CanonicalStrategySemantics.cs",
+      "sha256": "af7539bb0e4b70cc8485cdf001eb4e4c5835f27bd1e79216474b01aa075e4e02",
+      "bytes": 2561
+    },
+    {
+      "path": "src/QuantForge.Core/CausalMarketContracts.cs",
+      "sha256": "975cecbcbe44fcd8d90eb2d1250a2c9e29555724044c6d13b2d86e89bc956235",
+      "bytes": 487
+    },
+    {
+      "path": "src/QuantForge.Core/Contracts.cs",
+      "sha256": "cd6be6aa3a1c55bd4cfbc2dcf0c1fc52ebeb01dd2abb3efbbcf85089482bdc95",
+      "bytes": 1207
+    },
+    {
+      "path": "src/QuantForge.Core/ExecutionFillPolicy.cs",
+      "sha256": "a0707c28d1e61292bae5f1348c48c886acbf58ee3566ab3a6694e33411684ddc",
+      "bytes": 318
+    },
+    {
+      "path": "src/QuantForge.Core/ExecutionRiskSemantics.cs",
+      "sha256": "c092fb8b9ae6c7b5abbf4db72f4627356b96ff41dd8676735ae208327003bc34",
+      "bytes": 3924
+    },
+    {
+      "path": "src/QuantForge.Core/InstrumentProfiles.cs",
+      "sha256": "82cbb1584db8e94a53fc971fb6780e7763b4baa7fd5093ad2ca1cd7484ff230a",
+      "bytes": 623
+    },
+    {
+      "path": "src/QuantForge.Core/JobLifecycle.cs",
+      "sha256": "8f44e92f51547b29552cc34736f8679c6a4bd990fc807d03fe794e6ed46ce821",
+      "bytes": 2450
+    },
+    {
+      "path": "src/QuantForge.Core/PositionIntent.cs",
+      "sha256": "4ffb67589f1f7a1328848ca66ac7b5a4aaa7b373b5b1a31d6d5a826fc9615bf0",
+      "bytes": 2256
+    },
+    {
+      "path": "src/QuantForge.Core/ResearchContracts.cs",
+      "sha256": "2d13977425ce6fb572a7668c393708c514bc8f99c6bce1d6f7d6fd397d5a11f1",
+      "bytes": 2145
+    },
+    {
+      "path": "src/QuantForge.Core/ResearchProgress.cs",
+      "sha256": "84a214e6d0edb87398604c413e629e890437a923dd30d293891c977d8953f2f2",
+      "bytes": 412
+    },
+    {
+      "path": "src/QuantForge.Core/StrategyContracts.cs",
+      "sha256": "9902b636de716664dd6e32509b88f6dbee22f56ca1ed5dfd84dd716ea1f52e92",
+      "bytes": 1962
+    },
+    {
+      "path": "src/QuantForge.Core/TradingRiskSettings.cs",
+      "sha256": "72f1f8175586210b2887a22f3ddae7aace7a7bd99078d3c9dc1d8792d10aeb99",
+      "bytes": 2288
+    },
+    {
+      "path": "src/QuantForge.Data/CanonicalDataGate.cs",
+      "sha256": "7dabca7733f848943471b745e8dcc0443febd1f403cf09c56c9ee69c7e4769c7",
+      "bytes": 1256
+    },
+    {
+      "path": "src/QuantForge.Data/CausalTimeframeAggregator.cs",
+      "sha256": "9060dc2563ab43127d4157545481f663e798bca566ff7542b40380a05d96f4f0",
+      "bytes": 1547
+    },
+    {
+      "path": "src/QuantForge.Data/DataContracts.cs",
+      "sha256": "6a058c158d542c53236b0cc56441c9ce17879483e8d730d5841c18be0f70fcf0",
+      "bytes": 393
+    },
+    {
+      "path": "src/QuantForge.Data/MarketData.cs",
+      "sha256": "ea013cd0847113dc21151f57174e43a4e9839b0803b1228025a6479ad9bc2d23",
+      "bytes": 4156
+    },
+    {
+      "path": "src/QuantForge.Data/NinjaTraderDataBridge.cs",
+      "sha256": "05ec4842462ec34dfcf69d5cd7332afbafdf994d370b811c91324ccf6656bde1",
+      "bytes": 6068
+    },
+    {
+      "path": "src/QuantForge.Data/NinjaTraderDataContracts.cs",
+      "sha256": "cc0f688dfeb19ff8528d25052b8863b11e4d8b8416536c8f7771e3acbdb5fe26",
+      "bytes": 1492
+    },
+    {
+      "path": "src/QuantForge.Data/NinjaTraderExportImporter.cs",
+      "sha256": "58355aa53a16569c19c8affa73b5a89c51b1f7fb269189791bc0ce650e18d099",
+      "bytes": 4628
+    },
+    {
+      "path": "src/QuantForge.Data/NinjaTraderValidationEngine.cs",
+      "sha256": "5b14ff39f468b22447cf6449e460ee3e8bcf6f0397e024cd47d18c0e5da9f6e2",
+      "bytes": 8674
+    },
+    {
+      "path": "src/QuantForge.Governance/PersistentStrategyGovernanceService.cs",
+      "sha256": "a2bc9b288b91629f3088d9875e9002bfe064572918ae39b468824c5540d8585e",
+      "bytes": 2758
+    },
+    {
+      "path": "src/QuantForge.Governance/Policy.cs",
+      "sha256": "f57dff576961ee90f6a87a2185cd2879ed08f2d1a848ff4e6ccd9b84e4a82e67",
+      "bytes": 829
+    },
+    {
+      "path": "src/QuantForge.Governance/StrategyAcquisitionService.cs",
+      "sha256": "5e3fcc51bce223a5c6dfd955f6fb230cc6feb035fcb76d0b3b3f77be5f5c3b91",
+      "bytes": 1911
+    },
+    {
+      "path": "src/QuantForge.Governance/StrategySourceScrubber.cs",
+      "sha256": "9b92c0029aaab992f542f4d9471259817cc7cda1b4a4abd00ebb80a5c1ec4939",
+      "bytes": 9184
+    },
+    {
+      "path": "src/QuantForge.Reporting/ReportContracts.cs",
+      "sha256": "5a8ca4e6e3d177b8bf0f14aabe2ffb2de708747faafa36929764a18466d52da1",
+      "bytes": 291
+    },
+    {
+      "path": "src/QuantForge.Runtime/ResearchRuntime.cs",
+      "sha256": "298fc48686a47a094fafa90b33e1b2026609de40b5a517f79c05d6258a2b988f",
+      "bytes": 38504
+    },
+    {
+      "path": "src/QuantForge.Scout/ScoutContracts.cs",
+      "sha256": "191aba9bb0b3f2e8d1e237b2f41f50b3d02347e08106644dd1bf2915c13a2b63",
+      "bytes": 565
+    },
+    {
+      "path": "src/QuantForge.Storage/JobStoreContracts.cs",
+      "sha256": "e79879fbfc9b3dba02945df1874eff5611d90c7c99446856dc6e51aaed2403c1",
+      "bytes": 951
+    },
+    {
+      "path": "src/QuantForge.Storage/RiskSettingsStore.cs",
+      "sha256": "c13446ef5b5acf9a255aa9b336880275f48fd731c12741242fd3f3c263c5381b",
+      "bytes": 317
+    },
+    {
+      "path": "src/QuantForge.Storage/SqliteLocalStore.cs",
+      "sha256": "9d0c82d8e0dbc3e8289dcb94bc10048f47bd75d99b92a721fc766c46fa6a3731",
+      "bytes": 28179
+    },
+    {
+      "path": "src/QuantForge.Storage/SqliteStrategyGovernanceStore.cs",
+      "sha256": "5ed42dddcc51966786456bdeb2a262f0c9c74a1a1e5992347fe7011d4439bf46",
+      "bytes": 10397
+    },
+    {
+      "path": "src/QuantForge.Storage/StorageContracts.cs",
+      "sha256": "9ca1bc01d43bbf97d47d560dd0b24982fd6b8fd78a5ed677922a13eb2eca46d0",
+      "bytes": 1117
+    },
+    {
+      "path": "src/QuantForge.Storage/StrategyGovernanceContracts.cs",
+      "sha256": "753514f873997f55007a81a5a4d73c3250a8b6774291f91a29247f0ad8c15054",
+      "bytes": 1535
+    },
+    {
+      "path": "tests/QuantForge.ArchitectureTests/CanonicalStrategyAdapterChecks.cs",
+      "sha256": "e167c4887753366b087fd71aa1bda0c7b4800c473ccaed5d3ae288cce496480a",
+      "bytes": 1174
+    },
+    {
+      "path": "tests/QuantForge.ArchitectureTests/PositionIntentArchitectureChecks.cs",
+      "sha256": "8ca63a15bb3a6cf425dcd328f1c98b625a171d10fcbce225a83cffbee7f042cb",
+      "bytes": 1528
+    },
+    {
+      "path": "tests/QuantForge.ArchitectureTests/PositionLifecycleChecks.cs",
+      "sha256": "d294036efc3cddaf97735d4adf92757e5375f28d87e12c5bcf926fea7799374e",
+      "bytes": 2139
+    },
+    {
+      "path": "tests/QuantForge.ArchitectureTests/StrategyGovernanceArchitectureChecks.cs",
+      "sha256": "12c0cad5223b06547392fcb0c7099a8a011c2d7a0319636e982040bc2b33f34f",
+      "bytes": 1204
+    }
+  ]
+}

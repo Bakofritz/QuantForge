@@ -1,0 +1,14 @@
+QuantForge v20.12 source validation
+C# files: 40
+Structural balance: PASS
+Immutable quarantine table: PASS
+Immutable selection table: PASS
+Canonical model table: PASS
+Lineage table: PASS
+License signals: PASS
+Deterministic feature IDs: PASS
+Fingerprint validation: PASS
+Persistent governance service: PASS
+Immutable selection enforcement: PASS
+Live deployment disabled: PASS
+No source execution boundary: PASS

@@ -1,0 +1,2 @@
+Master Build milestone: v21.65
+Consolidated delta from v21.55: platform integration + transactional execution persistence + canonical broker request + recovery gate

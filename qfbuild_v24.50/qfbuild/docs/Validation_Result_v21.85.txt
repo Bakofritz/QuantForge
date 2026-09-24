@@ -1,0 +1,27 @@
+QuantForge v21.85 Validation Result
+===================================
+
+Result: PASS for structural and targeted architecture validation.
+
+Checks performed:
+- C# brace-balance / structural scan across source and tests: PASS
+- Platform secure-key default is unavailable: PASS
+- Unavailable secure-key provider fails closed: PASS
+- Test-only provider generates authentication proof: PASS
+- Authentication proof binds request fingerprint and idempotency key: PASS
+- Broker reconnect policy is bounded: PASS
+- Existing startup recovery architecture retained: PASS
+- Existing ambiguous-outcome rule retained: PASS
+- Existing live-order authority separation retained: PASS
+- Transactional audit store source contract present: PASS
+
+Not claimed:
+- Native .NET compilation
+- Android Keystore runtime integration
+- Windows secure-key runtime integration
+- Production passkey runtime integration
+- Real broker connectivity
+- Real-money order submission
+
+Reason: required native SDK/toolchain/platform signing material and production/sandbox broker environment are not available in this build environment.
+C# structural brace scan: PASS

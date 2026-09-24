@@ -1,0 +1,16 @@
+{
+  "version": "20.34",
+  "title": "Durable Continuation Receipt Reconciliation + Batch Accounting Integration",
+  "nativeCompilationValidated": false,
+  "parallelExecutionEnabled": false,
+  "liveTradingEnabled": false,
+  "visualRefinementFrozen": true,
+  "csharpFileCount": 83,
+  "artifacts": [
+    "Comprehensive_Build_Summary_v20.34.md",
+    "New_Chat_Handoff_v20.34.md",
+    "User_Manual_v20.34.md",
+    "Validation_Result_v20.34.txt",
+    "Source_Hashes_v20.34.txt"
+  ]
+}

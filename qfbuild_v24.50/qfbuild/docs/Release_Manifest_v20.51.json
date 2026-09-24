@@ -1,0 +1,15 @@
+{
+  "release": "20.51",
+  "name": "Recovery Preflight Binding Fault-Injection and Reconciliation",
+  "baseline": "20.50",
+  "sourceCSharpFiles": 101,
+  "testCSharpFiles": 29,
+  "totalCSharpFiles": 130,
+  "structuralValidation": "PASS",
+  "nativeDotnetExecution": "UNAVAILABLE",
+  "nativeSqliteExecution": "NOT_EXECUTED",
+  "parallelResearch": false,
+  "liveTradingAuthority": false,
+  "visualRefinement": "DEFERRED",
+  "nextBuild": "20.52"
+}

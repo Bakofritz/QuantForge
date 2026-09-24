@@ -1,0 +1,13 @@
+QuantForge v22.35 Validation Result
+
+C# structural validation: PASS (balanced braces in source/test files)
+ZIP integrity: PASS
+Capability provenance architecture checks: INCLUDED
+Authority revalidation architecture checks: INCLUDED
+Native .NET compilation: NOT CLAIMED
+Android Keystore runtime validation: NOT CLAIMED
+Windows protected-key runtime validation: NOT CLAIMED
+Real broker authentication: NOT CLAIMED
+Production broker order submission: NOT IMPLEMENTED/CLAIMED
+Unknown-order automatic retry: DISABLED BY ARCHITECTURE
+Reconnect automatic re-arm: DISABLED BY ARCHITECTURE

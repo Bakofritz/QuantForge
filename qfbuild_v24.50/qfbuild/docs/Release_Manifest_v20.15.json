@@ -1,0 +1,9 @@
+{
+  "release": "20.15",
+  "baseline": "20.14",
+  "focus": "Structured SMA/ATR indicators and causal MTF binding",
+  "source_files": 42,
+  "native_compile_validated": false,
+  "live_trading_enabled": false,
+  "visual_changes": false
+}

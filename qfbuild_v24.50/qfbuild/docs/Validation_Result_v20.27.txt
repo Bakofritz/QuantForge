@@ -1,0 +1,12 @@
+PASS: C# structural balance
+PASS: MultiCaseExecutionCoordinator exists
+PASS: per-case lease call
+PASS: per-case release
+PASS: max case guard
+PASS: aggregate fingerprint
+PASS: isolation coordinator used
+PASS: research-only prohibited authority set
+INFO: C# source files = 71
+NOT RUN: native dotnet build — .NET SDK/compiler unavailable
+NOT RUN: Android runtime/device validation — Android SDK/device unavailable
+NOT RUN: Windows native runtime validation — Windows SDK/runtime unavailable

@@ -1,0 +1,15 @@
+{
+  "build": "22.55",
+  "previous_build": "22.50",
+  "release_type": "Consolidated live-environment governance and recovery stability build",
+  "live_order_submission": "not implemented/claimed",
+  "required_docs": [
+    "Comprehensive_Build_Summary",
+    "User_Manual",
+    "New_Chat_Handoff",
+    "Validation_Result",
+    "Release_Manifest",
+    "Source_Hashes",
+    "Build_Count"
+  ]
+}

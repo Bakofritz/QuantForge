@@ -1,0 +1,23 @@
+{
+  "version": "21.45",
+  "milestone": "Confirmation-bound execution authority and persistent tamper-evident audit boundary",
+  "base": "21.35",
+  "live_order_submission": false,
+  "default_live_pathway_enabled": false,
+  "global_live_authority_default": "blocked",
+  "new_components": [
+    "LiveOrderConfirmationService",
+    "LiveOrderConfirmationToken",
+    "JsonLinesLiveAuditStore",
+    "PersistentTamperEvidentAuditSink",
+    "LiveExecutionAuthorityBoundary"
+  ],
+  "required_docs": [
+    "Comprehensive_Build_Summary_v21.45.md",
+    "User_Manual_v21.45.md",
+    "New_Chat_Handoff_v21.45.md",
+    "Validation_Result_v21.45.txt",
+    "Release_Manifest_v21.45.json",
+    "Source_Hashes_v21.45.txt"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "release": "20.13",
+  "baseline": "20.12",
+  "title": "Canonical Strategy Research Adapter",
+  "nativeCompilationValidated": false,
+  "liveTradingEnabled": false,
+  "sourceExecutionEnabled": false,
+  "filesValidated": 40,
+  "visualRefinementFrozen": true,
+  "pdfAnalysisDeferred": true
+}

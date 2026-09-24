@@ -1,0 +1,9 @@
+QF v20.52 Validation
+C# files: 102
+CS_STRUCTURAL_BALANCE_PASS
+Recovery binding reconciliation architecture checks: PASS
+Native dotnet compilation: NOT AVAILABLE
+Native SQLite execution: NOT EXECUTED
+Android/Windows runtime validation: NOT EXECUTED
+Parallel research execution: DISABLED
+Live trading/order authority: NONE

@@ -1,0 +1,25 @@
+QuantForge v20.34 Validation Result
+===================================
+
+Version: 20.34
+Title: Durable Continuation Receipt Reconciliation + Batch Accounting Integration
+
+C# source files: 83
+Structural brace balance: PASS
+
+BatchAccountingReconciler: PASS (source-integrated)
+Batch receipt retrieval contract: PASS
+SQLite batch receipt retrieval: PASS
+Receipt-per-context terminal counting: PASS
+Recovery double-count prevention design: PASS
+Multi-worker accounting representation: PASS
+Deterministic batch record fingerprint design: PASS
+ResearchRuntime reconciliation entry point: PASS
+Multi-case coordinator reconciliation integration: PASS
+Parallel execution: DISABLED
+Live trading/order authority: NOT ADDED
+Native .NET compilation: NOT AVAILABLE
+Windows runtime validation: NOT AVAILABLE
+Android runtime validation: NOT AVAILABLE
+
+Validation classification: source-level / structural only; native runtime claims are intentionally withheld.

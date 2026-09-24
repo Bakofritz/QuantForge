@@ -1,0 +1,17 @@
+{
+  "version": "22.30",
+  "release_type": "consolidated live-environment security and recovery architecture build",
+  "previous_release": "22.25",
+  "additions": [
+    "authenticated broker session identity boundary",
+    "external broker-order-ID identity binding",
+    "startup audit-chain verification boundary",
+    "deterministic live-environment state and capability evaluator",
+    "adversarial architecture checks"
+  ],
+  "live_order_submission": false,
+  "unknown_order_auto_retry": false,
+  "reconnect_rearms_live_pathway": false,
+  "native_platform_execution_validated": false,
+  "required_live_environment_summary": true
+}

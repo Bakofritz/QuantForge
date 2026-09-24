@@ -1,0 +1,32 @@
+{
+  "release": "20.18",
+  "baseline": "20.17",
+  "focus": [
+    "profit-target-semantics",
+    "risk-budget-enforcement",
+    "event-driven-risk-binding",
+    "evidence-linked-execution-sensitivity",
+    "grouped-functional-ui"
+  ],
+  "defaults": {
+    "account": 3000,
+    "primary_instrument": "MES",
+    "planned_instruments": [
+      "MNQ"
+    ],
+    "max_contracts": 1,
+    "initial_stop_points": 6,
+    "trailing_activation_points": 4,
+    "trailing_distance_points": 2,
+    "profit_target_points": 0,
+    "max_risk_per_trade": 30,
+    "daily_loss_limit": 60,
+    "commission_per_side": 0.95,
+    "slippage_ticks_per_side": 1,
+    "connection_profile": "WindowsWifi",
+    "estimated_round_trip_latency_ms": 80
+  },
+  "live_trading_enabled": false,
+  "imported_source_execution_enabled": false,
+  "native_runtime_validated": false
+}

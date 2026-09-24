@@ -1,0 +1,30 @@
+QuantForge v21.95 Validation Result
+===================================
+
+Result: PASS for structural and targeted architecture validation.
+
+Checks performed:
+- C# structural brace-balance scan across source and tests: PASS
+- Android native adapter defaults unavailable/pending: PASS
+- Windows native adapter defaults unavailable/pending: PASS
+- Native authentication unavailable state fails closed: PASS
+- Native secure-key unavailable state fails closed: PASS
+- Deterministic order normalization: PASS
+- Invariant canonical order serialization: PASS
+- Deterministic 64-character SHA-256 order fingerprint: PASS
+- Disconnected broker transport blocks execution: PASS
+- Unknown execution intent blocks execution: PASS
+- Clear recovery state reaches final authority recheck rather than granting authority: PASS
+- Reconnect attempts are bounded: PASS
+- Existing live security architecture retained: PASS
+- No production broker implementation added: PASS
+
+Not claimed:
+- Native .NET compilation
+- Android Keystore runtime execution
+- Windows secure-key runtime execution
+- Production passkey runtime execution
+- Real broker connectivity
+- Real-money order submission
+
+Reason: required native SDK/toolchain/platform signing material and production/sandbox broker environment are not available in this build environment.

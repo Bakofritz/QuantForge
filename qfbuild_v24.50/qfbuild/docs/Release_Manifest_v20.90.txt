@@ -1,0 +1,25 @@
+QuantForge v20.90 Release Manifest
+
+Release: v20.90
+Title: Consolidated Governed Backtest Case Factory & Deterministic Research Batch Execution
+Base: v20.85
+Consolidated: v20.86-v20.90
+
+Primary source additions
+- src/QuantForge.Runtime/GovernedBacktestBatchService.cs
+- tests/QuantForge.ArchitectureTests/GovernedBacktestBatchArchitectureChecks.cs
+
+Required documentation
+- Comprehensive_Build_Summary_v20.90.txt
+- User_Manual_v20.90.md
+- New_Chat_Handoff_v20.90.txt
+- Validation_Result_v20.90.txt
+- Build_Count_v20.90.txt
+- Release_Manifest_v20.90.txt
+- Source_Hashes_v20.90.txt
+
+Authority posture
+- Research execution: governed/read-only only
+- Live order authority: disabled
+- Arbitrary imported-code execution: disabled
+- Application mutation authority: not introduced

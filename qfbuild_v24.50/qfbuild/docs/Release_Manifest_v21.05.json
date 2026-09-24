@@ -1,0 +1,8 @@
+{
+  "version": "21.05",
+  "base": "21.00",
+  "consolidated": "strategy import/audit/feature scrubber/governance review/commit gate",
+  "native_runtime_tested": false,
+  "live_trading_enabled": false,
+  "arbitrary_imported_code_execution": false
+}

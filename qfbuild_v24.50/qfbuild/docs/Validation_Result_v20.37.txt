@@ -1,0 +1,4 @@
+CS_STRUCTURAL_BALANCE_PASS
+CSharpFiles=78
+DotnetAvailable=false
+ParallelExecutionEnabled=false

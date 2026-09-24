@@ -1,0 +1,3 @@
+Build Count: 24.50
+C# source files under src: 217
+Total C# files including architecture checks: 225

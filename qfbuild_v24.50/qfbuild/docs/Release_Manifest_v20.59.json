@@ -1,0 +1,25 @@
+{
+  "product": "QuantForge Futures Research Platform",
+  "version": "20.59",
+  "release": "Continuation Result/Checkpoint Atomicity Adapter and Reconciliation Boundary Harness",
+  "parent_release": "20.58",
+  "validation_status": "PASS_STRUCTURAL",
+  "native_runtime_validated": false,
+  "native_sqlite_validated": false,
+  "parallel_research_enabled": false,
+  "live_trading_enabled": false,
+  "artifacts": [
+    "src/QuantForge.Storage/RecoveryContinuationReplayContracts.cs",
+    "src/QuantForge.Runtime/CheckpointBoundContinuationService.cs",
+    "src/QuantForge.Storage/SqliteLocalStore.cs",
+    "src/QuantForge.Runtime/RecoveryContinuationAtomicCommitHarness.cs",
+    "tests/QuantForge.ArchitectureTests/RecoveryContinuationAtomicCommitArchitectureChecks.cs",
+    "docs/Comprehensive_Build_Summary_v20.59.md",
+    "docs/User_Manual_v20.59.md",
+    "docs/New_Chat_Handoff_v20.59.md",
+    "docs/Validation_Result_v20.59.txt",
+    "docs/Release_Manifest_v20.59.json",
+    "docs/Source_Hashes_v20.59.txt"
+  ],
+  "next_build": "20.60 Prepared-Operation Reconciliation Decision Record and External-Side-Effect Boundary Harness"
+}

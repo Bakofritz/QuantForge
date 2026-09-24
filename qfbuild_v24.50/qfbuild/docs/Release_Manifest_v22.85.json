@@ -1,0 +1,12 @@
+{
+  "release": "22.85",
+  "title": "Native Secure Runtime Capability Lifecycle",
+  "source_additions": [
+    "NativeSecureRuntimeCapabilityLifecycleV22_85.cs"
+  ],
+  "test_additions": [
+    "NativeSecureRuntimeCapabilityLifecycleV22_85ArchitectureChecks.cs"
+  ],
+  "live_order_submission_validated": false,
+  "native_dotnet_compilation_validated": false
+}

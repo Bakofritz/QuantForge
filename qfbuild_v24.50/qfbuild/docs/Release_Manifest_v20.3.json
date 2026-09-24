@@ -1,0 +1,21 @@
+{
+  "product": "QuantForge Futures Research Platform",
+  "release": "20.3",
+  "phase": "core-functionality-migration",
+  "visual_work": "frozen",
+  "native_target": ".NET 10 + .NET MAUI",
+  "compiled": false,
+  "validation": {
+    "csharp_structural": "16/16",
+    "behavioral_shadow": "PASS",
+    "dotnet_compile": "NOT_CLAIMED"
+  },
+  "safety": {
+    "live_trading": false,
+    "live_orders": false,
+    "arbitrary_code_execution": false,
+    "canonical_data_mutation": false,
+    "undeclared_app_mutation": false,
+    "manifest_mutation": false
+  }
+}

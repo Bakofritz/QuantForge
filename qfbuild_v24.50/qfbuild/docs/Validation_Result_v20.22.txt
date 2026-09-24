@@ -1,0 +1,8 @@
+QuantForge v20.22 source validation
+C# files: 59
+C# lexical structural balance: PASS
+ledger binding: PASS
+signed-position risk semantics: PASS
+modeled-vs-measured telemetry separation: PASS
+native compile/device validation: NOT AVAILABLE in this environment
+live authority: NOT PRESENT IN NEW v20.22 COMPONENTS

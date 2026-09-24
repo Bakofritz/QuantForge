@@ -1,0 +1,10 @@
+{
+  "version": "23.70",
+  "feature": "AI analysis locked to simulation/read-only research authority",
+  "live_brokerage_enabled": false,
+  "live_order_submission_enabled": false,
+  "simulation_only": true,
+  "read_only_market_data": true,
+  "nt8_future_live_prerequisite": true,
+  "source_csharp_file_count": 201
+}

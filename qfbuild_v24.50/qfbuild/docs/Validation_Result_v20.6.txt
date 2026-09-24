@@ -1,0 +1,33 @@
+QuantForge v20.6 Validation Result
+
+SOURCE STRUCTURE: PASS
+- C# files inspected: 28
+- Balanced-brace check: PASS
+
+OPTIMIZATION CONTRACT: PASS
+- ParameterRange present
+- DeterministicOptimizer present
+- Isolated case records present
+- Configuration/result fingerprints present
+
+WALK-FORWARD CONTRACT: PASS
+- Train/test windows are chronological
+- Optimization runs on training data
+- Selected parameters are applied to subsequent test data
+- Explicit window advancement exists
+
+ARCHITECTURE: PASS
+- Runtime references Backtesting
+- No circular reference introduced by v20.6 files
+
+SAFETY: PASS
+- No live-order authority added
+- Optimizer is research-only
+
+NATIVE RUNTIME: NOT VALIDATED
+- .NET SDK unavailable in current environment
+- Android/Windows device/package validation unavailable
+
+DATA FIDELITY
+- OHLCV bar-driven only
+- No claim of bid/ask, tick ordering, spread, or intrabar execution fidelity

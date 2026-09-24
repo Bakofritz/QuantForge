@@ -1,0 +1,5 @@
+QuantForge v22.40 Validation Result
+
+Structural C# brace validation: PASS
+ZIP integrity: PASS
+Native compilation and real broker-session execution are not claimed; architecture-level liveness checks are included.

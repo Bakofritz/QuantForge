@@ -1,0 +1,13 @@
+{
+  "product": "QuantForge Futures Research Platform",
+  "release": "20.5",
+  "baseline": "20.4",
+  "focus": ["canonical-data-gate", "causal-multi-timeframe"],
+  "visualChanges": false,
+  "nativeTarget": ".NET 10 LTS + .NET MAUI",
+  "platforms": ["Windows", "Android"],
+  "liveTrading": false,
+  "nativeCompilationValidated": false,
+  "dataFidelity": "OHLCV",
+  "engineLineage": "qf-native-v20.5"
+}

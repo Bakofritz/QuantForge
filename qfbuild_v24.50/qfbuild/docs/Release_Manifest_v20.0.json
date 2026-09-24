@@ -1,0 +1,26 @@
+{
+  "product": "QuantForge Futures Research Platform",
+  "release": "20.0",
+  "baseline": "19.2",
+  "nativeStack": ".NET 10 LTS + .NET MAUI",
+  "targets": [
+    "Windows",
+    "Android"
+  ],
+  "htmlTransitionalArtifact": {
+    "file": "QuantForge_Futures_Backtester_v20.0.html",
+    "bytes": 206284,
+    "sha256": "c95bdbf08b2394bd4b0e69bd9b83e5ab1f49fc1a7f4430ab31b6a0cfb06af4c1",
+    "embeddedJavaScriptBlocks": 28,
+    "nodeCheck": "28/28 PASS"
+  },
+  "visualReferenceFidelity": true,
+  "simultaneousNodes": true,
+  "perJobExecutionLease": true,
+  "localFirst": true,
+  "liveTrading": false,
+  "arbitraryCodeExecution": false,
+  "aiAuthoritative": false,
+  "nativeCompilation": "NOT_RUN_DOTNET_SDK_UNAVAILABLE",
+  "chromiumScreenshot": "ATTEMPTED_TIMEOUT_NO_CAPTURE"
+}

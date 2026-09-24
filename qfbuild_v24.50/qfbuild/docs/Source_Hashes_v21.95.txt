@@ -1,0 +1,7 @@
+68b9e1f0c23c60c7a3649902d22f0df620a122bc25f8a7fa3d73cb128acc4f91  /tmp/qf95/src/QuantForge.Governance/LiveNativePlatformAdaptersV21_95.cs
+1fcb681e7da6c5640643c7f8cfe0576f51701946e163edec7325e04cc3ddc012  /tmp/qf95/src/QuantForge.Governance/LiveBrokerOrderNormalizationV21_95.cs
+423743ccb36992ee9b669d52672647c5b85a4c57e5b5df482ad2f8ab1a69d0ab  /tmp/qf95/src/QuantForge.Governance/LiveBrokerRecoveryCoordinatorV21_95.cs
+6eebc5b8e99b5085745c9d30a2e81dc43ac5cec90190f9edca12f3292671798d  /tmp/qf95/tests/QuantForge.ArchitectureTests/PlatformIntegrationV21_95ArchitectureChecks.cs
+
+Build source files: 185
+Test files: 52

@@ -1,0 +1,16 @@
+{
+  "release": "20.41",
+  "name": "Test-Only Storage Fault Seam + Native SQLite Fault Execution",
+  "parallelExecutionEnabled": false,
+  "liveTradingAuthority": false,
+  "nativeValidationExecuted": false,
+  "sourceCSharpFilesIncludingTests": 102,
+  "artifacts": [
+    "Comprehensive_Build_Summary_v20.41.md",
+    "New_Chat_Handoff_v20.41.md",
+    "User_Manual_v20.41.md",
+    "Validation_Result_v20.41.txt",
+    "Release_Manifest_v20.41.json",
+    "Source_Hashes_v20.41.txt"
+  ]
+}

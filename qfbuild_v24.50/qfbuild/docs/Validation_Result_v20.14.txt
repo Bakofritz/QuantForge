@@ -1,0 +1,18 @@
+Structured parameter contract: PASS
+Indicator semantics: PASS
+Entry semantics: PASS
+Exit semantics: PASS
+Risk semantics: PASS
+Immutable semantic fingerprints: PASS
+Source provenance retained: PASS
+Unsupported semantics explicit: PASS
+Deterministic semantic adapter: PASS
+Canonical backtest bridge: PASS
+Canonical indicator artifact: PASS
+Chart signal reuse: PASS
+Semantic persistence contract: PASS
+Semantic persistence schema: PASS
+No source execution: PASS
+No live authority: PASS
+Chronology preserved: PASS
+C# files: 42
